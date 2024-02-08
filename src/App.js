@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./pages/Home";
+import HeroSection from "./components/home/HeroSection";
 import './index.css';
 import TaxPayerDetail from "./pages/TaxPayerDetail";
 import About from "./pages/About";

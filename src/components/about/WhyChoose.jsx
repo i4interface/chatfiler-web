@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function WhyChoose() {
-    const [accordionOpen, setAccordionOpen] = React.useState(0);
+    const [accordionOpen, setAccordionOpen] = useState(0);
 
     const handleAccordionToggle = (index) => {
       setAccordionOpen((prevIndex) => (prevIndex === index ? -1 : index));
@@ -30,8 +30,7 @@ function WhyChoose() {
       ];
     
   return (
-    <>
-        <div className="flex justify-center items-center px-16 py-12 bg-gray-100 rounded-[64px_64px_0px_0px] max-md:px-5">
+    <div className="flex justify-center items-center px-16 py-12 bg-gray-100 rounded-[64px_64px_0px_0px] max-md:px-5">
       <div className="mt-8 w-full max-w-[1175px] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -53,6 +52,7 @@ function WhyChoose() {
                     <img
                       loading="lazy"
                       src={item.image}
+                      alt={item.title}
                       className={`self-start w-7 aspect-square ${accordionOpen === index ? 'transform rotate-90' : ''}`}
                     />
                   </div>
@@ -61,6 +61,7 @@ function WhyChoose() {
                       <img
                         loading="lazy"
                         src={item.image}
+                        alt={item.title}
                         className="mt-6 w-full stroke-[1px] stroke-neutral-800 max-md:max-w-full"
                       />
                       <div className="mt-7 text-base leading-7 max-md:max-w-full">
@@ -75,8 +76,7 @@ function WhyChoose() {
         </div>
       </div>
     </div>
-    </>
-  )
+  );
 }
 
-export default WhyChoose
+export default WhyChoose;

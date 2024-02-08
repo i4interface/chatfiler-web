@@ -16,5 +16,26 @@ body {
 }
 
 
+.owl-carousel {
+    
+  width: 80vw;
+  margin: 0 auto;
+  transition: all o.5s ease-in-out;
+}
+
+.owl-next {
+  position: absolute;
+  right: 5px;
+  top: 40%;
+
+}
+
+.owl-prev {
+  position: absolute;
+  left: 5px;
+  top: 40%;
+}
+
+
 
 /* Add your custom styling here */
