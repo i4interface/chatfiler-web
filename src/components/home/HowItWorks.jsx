@@ -7,7 +7,7 @@ function HowItWorks() {
         <div className="flex flex-col mt-8 w-full max-w-[1183px] max-md:max-w-full">
           <div className="max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-              <div className="flex flex-col w-[61%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col w-[40%] max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col max-md:mt-10 max-md:max-w-full">
                   <div className="flex gap-3.5 self-start pr-4 text-base items-center text-red-700 whitespace-nowrap bg-rose-100 rounded-3xl">
                     <img
@@ -27,7 +27,7 @@ function HowItWorks() {
                   />
                 </div>
               </div>
-              <div className="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col ml-5 w-[60%] max-md:ml-0 max-md:w-full">
                 <div className="flex grow gap-5 justify-between items-start mt-9 text-3xl leading-10 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
                   <div className="flex flex-col gap-4 w-[60px] mt-2 text-white whitespace-nowrap basis-0 max-md:hidden">
                     <div className="flex w-full bg-red-700 justify-center items-center text-center aspect-square rounded-full ">

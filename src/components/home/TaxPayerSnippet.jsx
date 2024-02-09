@@ -6,7 +6,7 @@ function TaxPayerSnippet() {
     <>
       <div className="w-full h-fit mt-4 relative ">
         <div className="absolute w-full h-full md:h-[80%] bg-black -z-10 md:rounded-[50px]"></div>
-        <div className="flex pt-5 px-5 md:pt-20 container mx-auto gap-5 max-md:flex-col max-md:gap-0 ">
+        <div className="flex pt-5 px-5 md:pt-20 xl:w-[80%] mx-auto gap-5 max-md:flex-col max-md:gap-0 ">
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col ">
               <div className="flex gap-3.5 self-start pr-4 text-base items-center text-red-700 whitespace-nowrap bg-rose-100 rounded-3xl">
@@ -24,8 +24,8 @@ function TaxPayerSnippet() {
                 <br />
                 with your company
               </div>
-              <div className="hidden md:flex flex-col py-8 mt-36 bg-white rounded-3xl shadow text-zinc-900 max-md:mt-10">
-                <div className="flex flex-col pl-6 max-md:pl-5">
+              <div className="hidden md:flex flex-col py-8 lg:mt-36 bg-white rounded-3xl shadow text-zinc-900 max-md:mt-10">
+                <div className="flex flex-col px-3 max-md:px-2">
                   <div className="text-3xl leading-10">Students</div>
                   <div className="mt-4 text-sm leading-6">
                     Are you a student navigating the complexities of filing your
@@ -55,7 +55,7 @@ function TaxPayerSnippet() {
           <div className="hidden md:flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-zinc-900 max-md:mt-6">
               <div className="flex flex-col py-8 bg-white rounded-3xl shadow">
-                <div className="flex flex-col pl-6 max-md:pl-5">
+                <div className="flex flex-col px-3 max-md:px-2">
                   <div className="text-3xl leading-10">Workers</div>
                   <div className="mt-4 text-sm leading-6">
                     Are you a hardworking individual looking to simplify your
@@ -81,7 +81,7 @@ function TaxPayerSnippet() {
                 />
               </div>
               <div className="flex flex-col pt-10 pb-6 mt-6 bg-white rounded-3xl shadow">
-                <div className="flex flex-col pl-6 max-md:pl-5">
+                <div className="flex flex-col px-3 max-md:px-2">
                   <div className="text-3xl leading-10">Self-Employed</div>
                   <div className="mt-6 text-sm leading-6">
                     Being your own boss comes with unique challenges, especially
@@ -109,7 +109,7 @@ function TaxPayerSnippet() {
           </div>
           <div className="hidden md:flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col py-10 w-full bg-white rounded-3xl shadow text-zinc-900 max-md:mt-6">
-              <div className="flex flex-col pl-6 max-md:pl-5">
+              <div className="flex flex-col px-3 max-md:px-2">
                 <div className="text-3xl leading-10">Investors</div>
                 <div className="mt-4 text-sm leading-6">
                   Investing can be both rewarding and complex, especially when
@@ -135,7 +135,7 @@ function TaxPayerSnippet() {
             </div>
 
             <div className="flex flex-col pt-10 pb-6 mt-6 bg-white rounded-3xl shadow">
-              <div className="flex flex-col pl-6 max-md:pl-5">
+              <div className="flex flex-col px-3 max-md:px-2">
                 <div className="text-3xl leading-10">Newcomers</div>
                 <div className="mt-4 text-sm leading-6">
                   Embarking on a new journey in Canada is both exciting and full
