@@ -43,7 +43,7 @@ function Testimonials() {
 
   return (
     <>
-      <h1 className="w-full px-5 lg:px-20 2xl:text-5xl xl:text-3xl text-2xl font-medium mb-5">Reviews</h1>
+      <h1 className="w-full px-5 lg:px-20 2xl:text-5xl xl:text-3xl text-2xl font-medium mb-5 mt-10">Reviews</h1>
       <div className="flex flex-col px-14 py-12 bg-black shadow-sm rounded-[48px] max-md:px-5">
         <TestimonialCaro details={details} />
       </div>

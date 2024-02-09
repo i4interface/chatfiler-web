@@ -8,7 +8,7 @@ function HowItWorks() {
           <div className="max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
               <div className="flex flex-col w-[40%] max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col max-md:mt-10 max-md:max-w-full">
+                <div className="flex flex-col max-md:max-w-full">
                   <div className="flex gap-3.5 self-start pr-4 text-base items-center text-red-700 whitespace-nowrap bg-rose-100 rounded-3xl">
                     <img
                       loading="lazy"
@@ -37,7 +37,7 @@ function HowItWorks() {
                     <div className="flex bg-red-700 justify-center items-center text-center aspect-square rounded-full ">
                       2
                     </div>
-                    <div className="self-center w-2 bg-red-700 rounded h-[114px]" />
+                    <div className="self-center w-2 bg-red-700 rounded lg:h-[114px] md:h-[150px]" />
                     <div className="flex w-[60px] justify-center items-center bg-red-700 rounded-full aspect-square">
                       3
                     </div>
@@ -46,7 +46,7 @@ function HowItWorks() {
                       4
                     </div>
                   </div>
-                  <ol className="w-full flex flex-col px-[30px] md:px-0 flex-1 text-zinc-900 list-decimal md:list-none">
+                  <ol className="w-full flex md:gap-5 lg:gap-10 flex-col px-[30px] md:px-0 flex-1 text-zinc-900 list-decimal md:list-none">
                     <li className="text-2xl md:text-3xl">
                       <div>Create Your Account</div>
                       <ol className="mt-4 text-base leading-6 list-disc">

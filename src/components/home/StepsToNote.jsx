@@ -3,11 +3,11 @@ import React from "react";
 function StepsToNote() {
   return (
     <>
-      <div className="flex justify-center items-center px-16 py-12 bg-white max-md:px-5">
+      <div className="flex justify-center items-center md:px-16 md:py-12 bg-white max-md:px-5">
         <div className="mt-8 w-full max-w-[1176px] max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col w-[44%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col items-start self-stretch my-auto text-xl leading-10 text-zinc-900 max-md:mt-10 max-md:max-w-full">
+              <div className="flex flex-col items-start self-stretch md:my-auto text-xl leading-10 text-zinc-900 max-md:max-w-full">
                 <div className="flex gap-3.5 text-base leading-7 text-red-700 bg-rose-100 pr-2 rounded-3xl">
                   <img
                     loading="lazy"

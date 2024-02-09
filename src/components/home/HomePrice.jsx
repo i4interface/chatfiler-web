@@ -5,7 +5,7 @@ function HomePrice() {
     <>
       <section className="md:py-20 mt-10">
         <div className="container mx-auto lg:px-20 px-5">
-          <div className="mx-auto sm:text-center">
+          <div className="mx-auto ">
             <h2 className="md:text-4xl text-2xl font-medium tracking-tight mb-8">
               Do It Yourself!
             </h2>

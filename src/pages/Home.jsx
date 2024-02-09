@@ -7,6 +7,8 @@ import HowItWorks from "../components/home/HowItWorks";
 import OurFeatures from "../components/home/OurFeatures";
 import HomePrice from "../components/home/HomePrice";
 import Testimonials from "../components/testimonials/Testimonials";
+import FaqComp from "../components/home/FaqComp";
+import NewsSection from "../components/home/NewsSection";
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
       <HowItWorks />
       <HomePrice />
       <Testimonials />
+      <FaqComp />
+      <NewsSection />
     </Layout>
   );
 }
