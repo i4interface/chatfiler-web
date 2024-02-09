@@ -15,27 +15,19 @@ body {
   padding: 0;
 }
 
-
-.owl-carousel {
-    
-  width: 80vw;
-  margin: 0 auto;
-  transition: all o.5s ease-in-out;
+.header_sticky {
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 9;
+  transition: all 0.3s ease;
 }
 
-.owl-next {
-  position: absolute;
-  right: 5px;
-  top: 40%;
-
+.header_sticky-active {
+  position: fixed;
+  animation: moveDown 0.5s;
+  background-color: #ffffff;
+  box-shadow: 0 8px 25px 0 rgba(140, 152, 164, 0.15);
+  z-index: 1020;
 }
-
-.owl-prev {
-  position: absolute;
-  left: 5px;
-  top: 40%;
-}
-
-
-
-/* Add your custom styling here */
