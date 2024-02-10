@@ -1,81 +1,44 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import FaqAccordion from "../../components/home/FaqAccordion";
 
 function WhyChoose() {
-    const [accordionOpen, setAccordionOpen] = useState(0);
+  const items = [
+    {
+      question: "What documents do I need to file my taxes in Canada?",
+      answer:
+        "You typically need documents such as T4 slips for employment income, T5 slips for investment income, receipts for deductible expenses like charitable donations and medical expenses, and any other relevant financial records.",
+    },
+    {
+      question: "When is the tax filing deadline in Canada?",
+      answer:
+        "The tax filing deadline for most individuals in Canada is April 30th. However, if you or your spouse are self-employed, the deadline is June 15th, but any taxes owed are still due by April 30th.",
+    },
+    {
+      question: "How can I file my taxes online in Canada?",
+      answer:
+        "Filing your taxes online with Chat Filer Inc. is simple and convenient. Our software provides a user-friendly interface that guides you through the process step-by-step. Simply create an account, input your financial information, and Chat Filer will automatically generate your tax forms. You can then securely submit your return directly to the Canada Revenue Agency (CRA) using our integrated NETFILE service. With Chat Filer, you can file your taxes accurately and efficiently from the comfort of your own home.",
+    },
+    {
+      question:
+        "What is the difference between a tax deduction and a tax credit in Canada",
+      answer:
+        "Similar to the US, a tax deduction in Canada reduces your taxable income, while a tax credit directly reduces the amount of tax you owe.",
+    },
+  ];
 
-    const handleAccordionToggle = (index) => {
-      setAccordionOpen((prevIndex) => (prevIndex === index ? -1 : index));
-    };
-    const accordionData = [
-        {
-          title: "Expertise in Tax Filing",
-          image: "https://cdn.builder.io/api/v1/image/assets/TEMP/9e86a12967859cd332faec31dc8713141fe62dcde8c4de5e5d48699765516deb?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&",
-          content: "Your content here...",
-        },
-        {
-          title: "Commitment to Security",
-          image: "https://cdn.builder.io/api/v1/image/assets/TEMP/2eadd48feacec9b75cceeae64477ff5a013ec5b00f5726ab3f9be67041b31d6d?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&",
-          content: "Your content here...",
-        },
-        {
-          title: "User-Friendly Platform",
-          image: "https://cdn.builder.io/api/v1/image/assets/TEMP/57b2117285818c2640f962a1af0828ce06b1e7352ecb45525639b3611e5d487c?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&",
-          content: "We prioritize user experience, ensuring that our platform is accessible and intuitive for all. Whether you're a first-time filer or a seasoned tax pro, our user-friendly interface guides you through the process effortlessly.",
-        },
-        {
-          title: "Transparency and Compliance",
-          image: "https://cdn.builder.io/api/v1/image/assets/TEMP/52033d640d181ebe10521ffb27ea3966679508bd8c4c0fd712380634d9b4ab34?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&",
-          content: "Your content here...",
-        },
-      ];
-    
   return (
-    <div className="flex justify-center items-center px-16 py-12 bg-gray-100 rounded-[64px_64px_0px_0px] max-md:px-5">
-      <div className="mt-8 w-full max-w-[1175px] max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-          <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="mt-4 text-6xl leading-[84px] text-zinc-900 max-md:mt-10 max-md:text-4xl max-md:leading-[58px]">
-              Why Choose
-              <br />
-              Chatfilers?
-            </div>
-          </div>
-          <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col grow text-3xl leading-10 text-zinc-900 max-md:mt-10 max-md:max-w-full">
-              {accordionData.map((item, index) => (
-                <div key={index}>
-                  <div
-                    className="flex gap-5 justify-between px-px mt-8 max-md:flex-wrap max-md:max-w-full cursor-pointer"
-                    onClick={() => handleAccordionToggle(index)}
-                  >
-                    <div className="flex-auto">{item.title}</div>
-                    <img
-                      loading="lazy"
-                      src={item.image}
-                      alt={item.title}
-                      className={`self-start w-7 aspect-square ${accordionOpen === index ? 'transform rotate-90' : ''}`}
-                    />
-                  </div>
-                  {accordionOpen === index && (
-                    <>
-                      <img
-                        loading="lazy"
-                        src={item.image}
-                        alt={item.title}
-                        className="mt-6 w-full stroke-[1px] stroke-neutral-800 max-md:max-w-full"
-                      />
-                      <div className="mt-7 text-base leading-7 max-md:max-w-full">
-                        {item.content}
-                      </div>
-                    </>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
+    <section className="flex justify-center items-center px-16 py-12 bg-gray-100 rounded-[64px_64px_0px_0px] max-md:px-5">
+      <div className="container flex md:flex-row flex-col justify-center items-start">
+        <div className="w-full md:w-[40%] h-full flex justify-start items-start">
+          <h1 className="2xl:text-5xl xl:text-3xl text-2xl font-medium">
+            Why Choose Chatfilers?
+          </h1>
+        </div>
+        <div className="w-full md:w-[60%]">
+          <FaqAccordion items={items} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

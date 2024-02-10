@@ -4,8 +4,8 @@ function HomePrice() {
   return (
     <>
       <section className="md:py-20 mt-10">
-        <div className="container mx-auto px-20">
-          <div className="mx-auto sm:text-center">
+        <div className="container mx-auto lg:px-20 px-5">
+          <div className="mx-auto ">
             <h2 className="md:text-4xl text-2xl font-medium tracking-tight mb-8">
               Do It Yourself!
             </h2>
@@ -263,7 +263,7 @@ function HomePrice() {
             </section>
 
             <section className="relative flex flex-col rounded-xl p-6 shadow-lg bg-red-700">
-              <div className="absolute inset-0 left-auto -right-7 -top-3">
+              <div className="absolute inset-0 left-auto right-0 lg:-right-7 -top-3">
                 <a
                   className="rounded-lg py-2 px-3 text-xs font-semibold bg-black text-white hover:text-black hover:bg-white mt-6 transition-all duration-500"
                   aria-label="Get started with the Starter plan"
