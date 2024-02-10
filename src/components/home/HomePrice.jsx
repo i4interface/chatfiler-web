@@ -27,7 +27,7 @@ function HomePrice() {
                 Basic
               </h3>
               <p className="relative mt-5 text-3xl tracking-tight text-gray-900">
-                $1.49{" "}
+                $1.49
                 <sub className="text-sm font-medium">
                   Per return <span>(excl. tax)</span>{" "}
                 </sub>
@@ -39,10 +39,10 @@ function HomePrice() {
               <hr className="mt-6" />
               <div className="mt-6">
                 <ul role="list" className="-my-2 text-sm text-gray-700">
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -62,13 +62,13 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Upto 1 return per plan</span>
+                    <span >Upto 1 return per plan</span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="!w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -88,15 +88,14 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
-                      Covers employment, unemployment, & pension Income.
+                    <span>Covers employment, unemployment, & pension Income.
                     </span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -116,13 +115,13 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">AI powered Slip Scanning</span>
+                    <span>AI powered Slip Scanning</span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -142,13 +141,13 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Video Tutorials</span>
+                    <span>Video Tutorials</span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -168,13 +167,13 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Amend & Refile</span>
+                    <span>Amend & Refile</span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -194,13 +193,13 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Save Data from Previous Years</span>
+                    <span>Save Data from Previous Years</span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -220,15 +219,15 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Tuition Fees, Medical Receipts, Donation Slips, Rent Paid
                     </span>
                   </li>
 
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-red-700"
+                      className="w-5 h-5 fill-red-700 mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +247,7 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Unlock more features by upgrading to Chatfiler Plus
                     </span>
                   </li>
@@ -257,9 +256,9 @@ function HomePrice() {
               <a
                 className="inline-flex justify-center rounded-lg border py-2 px-3 text-sm font-semibold text-slate-400 hover:text-white hover:bg-red-700 mt-6 transition-all duration-500"
                 aria-label="Get started with the Starter plan"
-                href="#"
+                href="/pricing"
               >
-                Buy now
+                Explore Premium
               </a>
             </section>
 
@@ -268,7 +267,7 @@ function HomePrice() {
                 <a
                   className="rounded-lg py-2 px-3 text-xs font-semibold bg-black text-white hover:text-black hover:bg-white mt-6 transition-all duration-500"
                   aria-label="Get started with the Starter plan"
-                  href="#"
+                  href="/pricing"
                 >
                   Best choice
                 </a>
@@ -277,7 +276,7 @@ function HomePrice() {
                 Plus
               </h3>
               <p className="relative mt-5 text-3xl tracking-tight text-gray-900">
-                $29.99{" "}
+                $29.99
                 <sub className="text-sm font-medium">
                   Per 2 returns <span>(excl. tax)</span>
                 </sub>
@@ -289,10 +288,10 @@ function HomePrice() {
               <hr className="mt-6" />
               <div className="mt-6">
                 <ul role="list" className="-my-2 text-sm text-white">
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -312,12 +311,12 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Upto 2 returns per plan</span>
+                    <span>Upto 2 returns per plan</span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -337,14 +336,14 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Include everything in basic plan
                     </span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -364,12 +363,12 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Mostly ideal for families</span>
+                    <span>Mostly ideal for families</span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -389,12 +388,12 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Audit Assistance</span>
+                    <span>Audit Assistance</span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -414,14 +413,14 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Chat Support for Tax & Technical issues
                     </span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -441,14 +440,14 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Unlimited Personalized Tax Support during the season
                     </span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -468,12 +467,12 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Know your refund before</span>
+                    <span>Know your refund before</span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -493,12 +492,12 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">Year around email support</span>
+                    <span>Year around email support</span>
                   </li>
-                  <li className="flex py-2">
+                  <li className="flex items-center py-2">
                     {/* svg icon */}
                     <svg
-                      className="w-5 h-5 fill-white"
+                      className="w-5 h-5 fill-white mr-2"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -518,7 +517,7 @@ function HomePrice() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <span className="ml-4">
+                    <span>
                       Easy to use with expert chat support
                     </span>
                   </li>
@@ -527,9 +526,9 @@ function HomePrice() {
               <a
                 className="inline-flex justify-center rounded-lg border py-2 px-3 text-sm font-semibold bg-white hover:text-white hover:bg-red-700 mt-6 transition-all duration-500 text-gray-900"
                 aria-label="Get started with the Starter plan"
-                href="#"
+                href="/pricing"
               >
-                Get the premium
+                Explore Premium
               </a>
             </section>
           </div>

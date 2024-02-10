@@ -4,24 +4,32 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header() {
 
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+  const _stickyScrollHandler = () => {
+    const scrollPosition = window.scrollY;
+    const headerHeight = document.getElementById('header').offsetHeight;
+
+    if (scrollPosition > headerHeight) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
 
   useEffect(() => {
-    function handleScroll() {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+    const headerElement = document.getElementById('header');
+
+    if (headerElement) {
+
+      window.removeEventListener('scroll', _stickyScrollHandler);
+      window.addEventListener('scroll', _stickyScrollHandler);
     }
 
-    window.addEventListener("scroll", handleScroll);
+    // Clean up the event listener on component unmount
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', _stickyScrollHandler);
     };
   }, []);
-
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const location = useLocation();
@@ -40,7 +48,7 @@ function Header() {
 
   return (
     <div>
-      <header className={`bg-white shadow-md ${isScrolled ? 'fixed top-0 left-0 right-0 z-[9999]' : ''}`}>
+      <header id="header" className={`bg-white shadow-md header_sticky ${isSticky ? 'header_sticky-active' : ''}`}>
         <div className="container mx-auto flex justify-between items-center p-4">
           {/* Logo */}
           <Link to="/" className="flex items-center">
@@ -130,9 +138,6 @@ function Header() {
               alt="Sidebar Logo"
               className="h-12 mr-2"
             />
-            <span className="text-white font-poppins text-lg">
-              Your Sidebar Logo
-            </span>
           </div>
 
           {/* Navigation Links */}

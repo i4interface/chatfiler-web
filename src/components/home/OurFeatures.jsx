@@ -16,7 +16,9 @@ function OurFeatures() {
     {
       id: 3,
       heading: "Security is our top priority",
-      para: "No matter what, security is our utmost priority. Benefit from state-of-the-art encryption and privacy measures that safeguard your sensitive financial information throughout the entire tax filing process.",
+
+      para: "No matter what, security is our atmost priority. Benefit from state-of-the-art encryption and  privacy measures that safeguard your sensitive financial information throughout the entire tax filing process.",
+
     },
     {
       id: 4,
@@ -31,7 +33,9 @@ function OurFeatures() {
     {
       id: 6,
       heading: "Efficiency Without Compromise",
+
       para: "Experience a seamless and efficient tax filing process without compromising on accuracy. Chatfilers is committed to providing a swift and hassle-free experience for all our users.",
+
     },
     {
       id: 7,
@@ -106,6 +110,7 @@ function OurFeatures() {
                 state-of-the-art encryption and privacy measures that safeguard
                 your sensitive financial information throughout the entire tax
                 filing process.
+
               </p>
             </div>
           </div>
@@ -114,6 +119,7 @@ function OurFeatures() {
             <div className="my-auto w-2 bg-black rounded h-[68px]" />
             <div className="flex flex-col flex-1 max-md:max-w-full">
               <h2 className="text-2xl leading-10 max-md:max-w-full">
+
                 Real-Time Error Checking
               </h2>
 
@@ -121,6 +127,7 @@ function OurFeatures() {
                 Say goodbye to the stress of potential errors in your tax
                 return. Our platform checks for errors in real-time, ensuring
                 that your submission is accurate before you hit submit.
+
               </p>
             </div>
           </div>
@@ -129,6 +136,7 @@ function OurFeatures() {
             <div className="my-auto w-2 bg-black rounded h-[68px]" />
             <div className="flex flex-col flex-1 max-md:max-w-full">
               <h2 className="text-2xl leading-10 max-md:max-w-full">
+
                 Expertise at Your Fingertips
               </h2>
 
@@ -137,6 +145,7 @@ function OurFeatures() {
                 intricacies of Canadian tax regulations. Chatfilers combines
                 innovation with a deep understanding of tax laws to provide you
                 with accurate and reliable results.
+
               </p>
             </div>
           </div>
@@ -145,6 +154,7 @@ function OurFeatures() {
             <div className="my-auto w-2 bg-black rounded h-[68px]" />
             <div className="flex flex-col flex-1 max-md:max-w-full">
               <h2 className="text-2xl leading-10 max-md:max-w-full">
+
                 Efficiency Without Compromise
               </h2>
 
@@ -152,6 +162,7 @@ function OurFeatures() {
                 Experience a seamless and efficient tax filing process without
                 compromising on accuracy. Chatfilers is committed to providing a
                 swift and hassle-free experience for all our users.
+
               </p>
             </div>
           </div>
@@ -160,6 +171,7 @@ function OurFeatures() {
             <div className="my-auto w-2 bg-black rounded h-[68px]" />
             <div className="flex flex-col flex-1 max-md:max-w-full">
               <h2 className="text-2xl leading-10 max-md:max-w-full">
+
                 Real-Time Updates & Notifications
               </h2>
 
@@ -168,6 +180,7 @@ function OurFeatures() {
                 updates on the status of your tax return. Receive notifications
                 as soon as your submission is processed, offering you peace of
                 mind.
+
               </p>
             </div>
           </div>

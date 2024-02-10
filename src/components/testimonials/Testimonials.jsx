@@ -1,4 +1,4 @@
-import React from "react";
+
 import TestimonialCaro from "../home/TestimonialCaro";
 
 function Testimonials() {
@@ -48,7 +48,3 @@ function Testimonials() {
         <TestimonialCaro details={details} />
       </div>
     </>
-  );
-}
-
-export default Testimonials;
