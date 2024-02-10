@@ -48,3 +48,5 @@ function Testimonials() {
         <TestimonialCaro details={details} />
       </div>
     </>
+  )};
+  export default Testimonials;
