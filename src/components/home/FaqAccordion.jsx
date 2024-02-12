@@ -53,7 +53,7 @@ const FaqAccordion = ({ items }) => {
   });
 
   return (
-    <ul className="accordion px-5 lg:px-20 mt-5 lg:mt-10">{renderedItems}</ul>
+    <ul className="accordion w-full px-5 lg:px-20 mt-5 lg:mt-10">{renderedItems}</ul>
   );
 };
 

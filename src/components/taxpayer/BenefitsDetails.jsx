@@ -3,7 +3,7 @@ import React from "react";
 function InterfaceSection({ logoSrc, altText, title, description }) {
   return (
     <div className="flex flex-col px-5 max-w-[998px] text-zinc-900 mx-auto mt-8">
-      <div className="flex gap-5 justify-between text-3xl leading-2 max-md:flex-wrap max-md:max-w-full">
+      <div className="flex gap-5 justify-between text-2xl md:text-3xl leading-2 max-md:max-w-full">
         <img
           loading="lazy"
           src={logoSrc}
@@ -12,7 +12,7 @@ function InterfaceSection({ logoSrc, altText, title, description }) {
         />
         <div className="flex-auto mt-2.5">{title}</div>
       </div>
-      <div className="mt-12 w-full text-sm leading-6 max-md:mt-10 max-md:max-w-full">
+      <div className="mt-4 md:mt-12 w-full text-sm leading-6 max-md:max-w-full">
         {description}
       </div>
     </div>
