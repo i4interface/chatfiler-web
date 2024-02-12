@@ -96,7 +96,7 @@ function FaqComp() {
           Have Questions? <br />
           Get Answers
         </h1>
-        <a href="#" className="underline">
+        <a href="/faq" className="underline">
           View all
         </a>
       </div>

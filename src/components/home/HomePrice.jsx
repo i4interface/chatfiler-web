@@ -3,8 +3,8 @@ import React from "react";
 function HomePrice() {
   return (
     <>
-      <section className="md:py-20 mt-10">
-        <div className="container mx-auto lg:px-20 px-5">
+      <section className="md:py-20 mt-10 ">
+        <div className="container mx-auto px-5 lg:px-20">
           <div className="mx-auto ">
             <h2 className="md:text-4xl text-2xl font-medium tracking-tight mb-8">
               Do It Yourself!
@@ -21,7 +21,7 @@ function HomePrice() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 grid-cols-1 2xl:px-[380px] gap-7 mt-16">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-7 mt-16">
             <section className="flex flex-col overflow-hidden rounded-xl p-6 shadow-lg bg-white">
               <h3 className="text-sm font-semibold text-red-700 uppercase">
                 Basic

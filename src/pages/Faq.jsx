@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "../layout/Layout";
 import FaqAccordion from "../components/home//FaqAccordion";
 
 function Faq() {
@@ -59,7 +60,8 @@ function Faq() {
     // Add other items similarly
   ];
   return (
-    <section className="w-full my-10 lg:my-20">
+    <Layout>
+          <section className="w-full my-10 lg:my-20">
       <div className="w-full px-5 lg:px-20">
         <div className="flex w-fit gap-3.5 self-start pr-4 text-base items-center text-red-700 whitespace-nowrap bg-rose-100 rounded-3xl">
           <svg
@@ -100,6 +102,7 @@ function Faq() {
 
       <FaqAccordion items={items} />
     </section>
+    </Layout>
   );
 }
 

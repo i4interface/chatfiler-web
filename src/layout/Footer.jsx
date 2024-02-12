@@ -28,7 +28,7 @@ function Footer() {
                   </div>
                 </form>
                 <div className="flex gap-2 justify-between pr-1 mt-12 max-lg:mt-10 w-[20%]">
-                  <a href="#image-1" className="w-8 aspect-square">
+                  <a href="#image-1" className="w-8 aspect-square text-white">
                     <img
                       loading="lazy"
                       src="/icons/square-facebook.svg"
@@ -59,44 +59,44 @@ function Footer() {
               <div className="flex gap-5 justify-between text-lg leading-8 text-white max-lg:mt-10">
                 <div className="flex flex-col flex-1 whitespace-nowrap">
                   <h2 className="text-lg">Quick Links</h2>
-                  <div className="text-sm font-regular mt-4 hover:text-red-700">
+                  <a href="/news" className="text-sm font-regular mt-4 hover:text-red-700">
                     News/Updates
-                  </div>
-                  <div className="text-sm font-regular mt-4 hover:text-red-700">
+                  </a>
+                  <a href="/faq" className="text-sm font-regular mt-4 hover:text-red-700">
                     F.A.Q
-                  </div>
-                  <div className="text-sm font-regular mt-4 hover:text-red-700">
+                  </a>
+                  <a href="/taxp-payers" className="text-sm font-regular mt-4 hover:text-red-700">
                     Services
-                  </div>
+                  </a>
                 </div>
                 <div className="flex flex-col flex-1 self-start">
                   <h2 className="text-lg">Other Links</h2>
-                  <div className="text-sm font-regular mt-4 hover:text-red-700">
+                  <a href="/terms-conditions" className="text-sm font-regular mt-4 hover:text-red-700">
                     Terms & Conditions
-                  </div>
-                  <div className="text-sm font-regular mt-4 hover:text-red-700">
+                  </a>
+                  <a href="/privacy-policy" className="text-sm font-regular mt-4 hover:text-red-700">
                     Privacy Policy
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="flex flex-col ml-5 w-[33%] max-lg:ml-0 max-lg:w-full">
               <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start text-xl leading-8 text-white max-lg:mt-10">
                 <h2 className="text-lg">Contact</h2>
-                <div className="text-sm font-regular mt-4">
+                {/* <div className="text-sm font-regular mt-4">
                   5007 Ocean Avenue, Charlotte, NC, Bakersfield
-                </div>
+                </div> */}
 
                 <div className="text-sm font-regular mt-2">(610) 945-7986</div>
                 <div className="text-sm font-regular mt-2">
-                  real.danieljackson@hotmail.com
+                  example@example.com
                 </div>
-                <button
+                <a href="/login"
                   className="p-4 mt-9 text-lg bg-red-700 rounded-full max-lg:px-5 "
-                  type="button"
+                  
                 >
                   Login/Register
-                </button>
+                </a>
               </div>
             </div>
           </div>
