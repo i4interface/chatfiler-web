@@ -9,11 +9,12 @@ import HomePrice from "../components/home/HomePrice";
 import Testimonials from "../components/testimonials/Testimonials";
 import FaqComp from "../components/home/FaqComp";
 import NewsSection from "../components/home/NewsSection";
+import Heronew from "../components/home/Heronew";
 
 function Home() {
   return (
     <Layout>
-      <HeroSection />
+      <Heronew />
       <StepsToNote />
       <OurFeatures />
       <TaxPayerSnippet />
