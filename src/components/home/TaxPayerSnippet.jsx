@@ -1,5 +1,6 @@
 import React from "react";
 import AccordionContainer from "./TaxAccordion";
+import { Link } from "react-router-dom";
 
 function TaxPayerSnippet() {
   return (
@@ -32,8 +33,8 @@ function TaxPayerSnippet() {
                     taxes? Here we are! We understand that as a student, your
                     financial situation is unique.
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/tax-payers'}
                     className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
                   >
                     <div className="grow my-auto">Learn More</div>
@@ -42,7 +43,7 @@ function TaxPayerSnippet() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
                       className="w-5 aspect-square"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <img
                   loading="lazy"
@@ -62,8 +63,8 @@ function TaxPayerSnippet() {
                     tax filing process? At Chatfilers, we recognise the unique
                     needs of workers like you.
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/tax-payers'}
                     className="flex gap-2 justify-center self-end px-4 py-3 mt-2.5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
                   >
                     <div className="grow my-auto">Learn More</div>
@@ -72,7 +73,7 @@ function TaxPayerSnippet() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
                       className="w-5 aspect-square"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <img
                   loading="lazy"
@@ -87,8 +88,8 @@ function TaxPayerSnippet() {
                     Being your own boss comes with unique challenges, especially
                     when it comes to managing your taxes.
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/tax-payers'}
                     className="flex gap-2 justify-center self-end px-4 py-3 mt-1.5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
                   >
                     <div className="grow my-auto">Learn More</div>
@@ -97,7 +98,7 @@ function TaxPayerSnippet() {
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
                       className="w-5 aspect-square"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <img
                   loading="lazy"
@@ -115,8 +116,8 @@ function TaxPayerSnippet() {
                   Investing can be both rewarding and complex, especially when
                   it comes to managing your taxes.
                 </div>
-                <a
-                  href="#"
+                <Link
+                  to={'/tax-payers'}
                   className="flex gap-2 justify-center self-end px-4 py-3 mt-5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
                 >
                   <div className="grow my-auto">Learn More</div>
@@ -125,7 +126,7 @@ function TaxPayerSnippet() {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
                     className="w-5 aspect-square"
                   />
-                </a>
+                </Link>
               </div>
               <img
                 loading="lazy"
@@ -142,8 +143,8 @@ function TaxPayerSnippet() {
                   of adjustments. As you settle into your new life, managing
                   your taxes doesn't have to be a challenge.
                 </div>
-                <a
-                  href="#"
+                <Link
+                  to={'/tax-payers'}
                   className="flex gap-2 justify-center self-end px-4 py-3 mt-5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
                 >
                   <div className="grow my-auto">Learn More</div>
@@ -152,7 +153,7 @@ function TaxPayerSnippet() {
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
                     className="w-5 aspect-square"
                   />
-                </a>
+                </Link>
               </div>
               <img
                 loading="lazy"

@@ -1,6 +1,7 @@
 import * as React from "react";
 import HeroImage from "../../images/heroImg.png";
 import shadows from "@mui/material/styles/shadows";
+import { Link } from "react-router-dom";
 function Heronew() {
   return (
     <section className="w-full my-0 md:my-10 xl:my-20 flex justify-center items-center px-16 py-6 md:py-12 bg-white max-md:px-5">
@@ -15,9 +16,9 @@ function Heronew() {
                 Do it yourself with expert help and mentoring. Take your device
                 and let’s start your filing
               </p>
-              <button className="w-fit px-6 py-2 uppercase text-white bg-[#AF1B19] hover:bg-[#8d2725] ease-in-out duration-300 rounded-full">
+              <Link to={'#'} className="w-fit px-6 py-2 uppercase text-white bg-[#AF1B19] hover:bg-[#8d2725] ease-in-out duration-300 rounded-full">
                 File my tax returns
-              </button>
+              </Link>
               <div className="flex gap-10 md:mt-8 text-black max-md:flex-wrap max-md:max-w-full">
                 <div className="flex flex-col gap-4">
                   <svg
@@ -57,7 +58,7 @@ function Heronew() {
             </div>
           </div>
           <div className="flex relative flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex w-full z-10 h-1/2 ">
+            <div className="flex w-full z-10 h-1/2">
               <div
                 className="flex flex-col bg-white gap-2 h-fit items-start max-w-[150px] md:max-w-[100px] p-2 rounded-2xl mt-4 ml-4"
                 style={{ boxShadow: "#7d12115e 6px 3px 18px" }}
@@ -75,7 +76,7 @@ function Heronew() {
                     fill="white"
                   />
                 </svg>
-                <h4 className="text-xs">Successful transcations</h4>
+                <h4 className="text-xs">Your refund</h4>
                 <p className="text-sm font-semibold">$ 3989</p>
                 <span className="flex justify-center items-center p-2 gap-2 rounded-full bg-[#AF1B19] text-white text-xs ">
                   + 8.65%
@@ -96,8 +97,8 @@ function Heronew() {
             </div>
             <img
               src={HeroImage}
-              alt="person using laptop"
-              className="absolute object-bottom z-[1] w-full h-[85%] object-cover rounded-xl"
+              alt="ChatFiler"
+              className="absolute object-bottom z-[1] w-full h-[100%] object-cover rounded-xl"
             />
             <div className="w-1/2 h-[65%] bg-red-700 z-0 blur-[175px] absolute bottom-0 right-0"></div>
             <div className="flex flex-col max-md:hidden z-10 gap-4 justify-center items-end w-full h-1/2 ">
@@ -160,18 +161,18 @@ function Heronew() {
                 </div>
               </div>
               <div className="w-[80%] h-[20%] bg-white rounded-3xl flex justify-between items-center px-2 py-[6px] gap-2">
-                <a
-                  href="#"
+                <Link
+                  to={'#'}
                   className="px-[10px] py-1 bg-[#ECC8C8] grow text-center text-base rounded-full"
                 >
                   Get started
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                 to={'/about'}
                   className="px-[10px] py-1 bg-[#EDEDED] grow text-center text-base rounded-full"
                 >
                   Learn more
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="bg-red-700 h-full aspect-square rounded-full flex justify-center items-center"

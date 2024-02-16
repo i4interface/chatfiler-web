@@ -87,9 +87,9 @@ function Footer() {
                   5007 Ocean Avenue, Charlotte, NC, Bakersfield
                 </div> */}
 
-                <div className="text-sm font-regular mt-2">(610) 945-7986</div>
+                {/* <div className="text-sm font-regular mt-2">(610) 945-7986</div> */}
                 <div className="text-sm font-regular mt-2">
-                  example@example.com
+                  info@chatfiler.ca
                 </div>
                 <a href="/login"
                   className="p-4 mt-9 text-lg bg-red-700 rounded-full max-lg:px-5 "
