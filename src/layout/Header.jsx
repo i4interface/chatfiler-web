@@ -51,60 +51,60 @@ function Header() {
       <header id="header" className={`bg-white shadow-md header_sticky ${isSticky ? 'header_sticky-active' : ''}`}>
         <div className="container mx-auto flex justify-between items-center p-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img src="/images/logo.png" alt="Logo" className="h-12" />
-          </Link>
+          </a>
 
           {/* Navigation Links */}
           <nav className="hidden md:flex space-x-4">
-            <Link
-              to="/"
+            <a href="/"
+              
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/") && "text-red-700"
               }`}
             >
               Home
-            </Link>
-            <Link
-              to="/about"
+            </a>
+            <a
+              href="/about"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/about") && "text-red-700"
               }`}
             >
               About Us
-            </Link>
-            <Link
-              to="/tax-payers"
+            </a>
+            <a
+              href="/tax-payers"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/tax-payers") && "text-red-700"
               }`}
             >
               Tax Payers
-            </Link>
-            <Link
-              to="/news"
+            </a>
+            <a
+              href="/news"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/news") && "text-red-700"
               }`}
             >
               News/Update
-            </Link>
-            <Link
-              to="/pricing"
+            </a>
+            <a
+              href="/pricing"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/pricing") && "text-red-700"
               }`}
             >
               Pricing
-            </Link>
-            <Link
-              to="/contact"
+            </a>
+            <a
+              href="/contact"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/contact") && "text-red-700"
               }`}
             >
               Contact Us
-            </Link>
+            </a>
           </nav>
 
           {/* Rounded Button */}
@@ -141,54 +141,54 @@ function Header() {
           </div>
 
           {/* Navigation Links */}
-          <Link
-            to="/"
+          <a
+            href="/"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/") && "text-red-700"
             }`}
           >
             Home
-          </Link>
-          <Link
-            to="/about"
+          </a>
+          <a
+            href="/about"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/about") && "text-red-700"
             }`}
           >
             About Us
-          </Link>
-          <Link
-            to="/tax-payers"
+          </a>
+          <a
+            href="/tax-payers"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/tax-payers") && "text-red-700"
             }`}
           >
             Tax Payers
-          </Link>
-          <Link
-            to="/news"
+          </a>
+          <a
+            href="/news"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/news") && "text-red-700"
             }`}
           >
             News/Update
-          </Link>
-          <Link
-            to="/pricing"
+          </a>
+          <a
+            href="/pricing"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/pricing") && "text-red-700"
             }`}
           >
             Pricing
-          </Link>
-          <Link
-            to="/contact"
+          </a>
+          <a
+            href="/contact"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/contact") && "text-red-700"
             }`}
           >
             Contact Us
-          </Link>
+          </a>
         </div>
         {/* Social Media Icons at the bottom */}
         <div className="flex justify-center items-center mt-auto mb-4">

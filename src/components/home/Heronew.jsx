@@ -1,5 +1,5 @@
 import * as React from "react";
-import HeroImage from "../../images/heroImg.png";
+import HeroImage from "../../images/refund-bg.jpg";
 import shadows from "@mui/material/styles/shadows";
 import { Link } from "react-router-dom";
 function Heronew() {
@@ -16,11 +16,11 @@ function Heronew() {
                 Do it yourself with expert help and mentoring. Take your device
                 and let’s start your filing
               </p>
-              <Link to={'#'} className="w-fit px-6 py-2 uppercase text-white bg-[#AF1B19] hover:bg-[#8d2725] ease-in-out duration-300 rounded-full">
+              <a href="" className="w-fit px-6 py-2 uppercase text-white bg-[#AF1B19] hover:bg-[#8d2725] ease-in-out duration-300 rounded-full">
                 File my tax returns
-              </Link>
-              <div className="flex gap-10 md:mt-8 text-black max-md:flex-wrap max-md:max-w-full">
-                <div className="flex flex-col gap-4">
+              </a>
+              <div className="flex flex-row gap-4 md:gap-10 md:mt-8 text-black max-md:flex-wrap max-md:max-w-full">
+                <div className="flex flex-col gap-2">
                   <svg
                     width="44"
                     height="44"
@@ -35,29 +35,30 @@ function Heronew() {
                     />
                   </svg>
                   <div className=" text-xl font-bold ">3500+</div>
-                  <div className=" text-base ">Satisfied Users</div>
+                  <div className="text-sm md:text-base">Satisfied Users</div>
                 </div>
-                <div className="flex flex-col gap-4">
-                  <svg
+                <div className="flex flex-col gap-2">
+                <svg
                     width="44"
                     height="44"
                     viewBox="0 0 44 44"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <rect width="44" height="44" rx="12" fill="black" />
+                    <rect width="44" height="44" rx="11.25" fill="black" />
                     <path
-                      d="M22.75 21.075C22.625 21.075 22.625 20.9562 22.5 20.9562V17.275C24 17.3937 25.25 17.9875 25.25 17.9875L26.375 15.85C26.25 15.85 24.5 14.9 22.5 14.9V13H21.25V14.9C20.25 15.1375 19.5 15.4938 18.75 15.9688C18 16.6813 17.5 17.6313 17.5 18.7C17.5 19.5312 17.75 21.4312 21.25 22.975V27.6062C20.125 27.3688 18.75 26.775 18.25 26.5375L17 28.5563C17.25 28.675 19.25 29.7437 21.25 29.9813V32H22.5V29.9813C25.375 29.625 27 27.4875 27 25.4688C27 23.6875 25.75 22.2625 22.75 21.075ZM21.25 20.3625C20.25 19.7687 20 19.175 20 18.8187C20 18.3438 20.125 17.9875 20.5 17.75L21.25 17.3938V20.3625ZM22.5 27.6062V23.5687C23.875 24.1625 24.5 24.875 24.5 25.4688C24.5 26.1812 24.125 27.3688 22.5 27.6062Z"
+                      d="M20 11C15.0373 11 11 15.0373 11 20C11 24.9628 15.0373 29 20 29C24.9628 29 29 24.9628 29 20H26.975C26.975 23.846 23.846 26.975 20 26.975C16.154 26.975 13.025 23.846 13.025 20C13.025 16.154 16.154 13.025 20 13.025V11ZM25.55 12.9372L19.9213 19.9655L17.291 17.81L15.7895 19.637L19.3453 22.553C19.466 22.6526 19.6055 22.7272 19.7554 22.7724C19.9053 22.8176 20.0628 22.8325 20.2185 22.8163C20.3742 22.8 20.5252 22.7529 20.6625 22.6777C20.7999 22.6025 20.9209 22.5007 21.0185 22.3783L27.3965 14.4155L25.55 12.9372Z"
                       fill="white"
                     />
                   </svg>
-                  <div className=" text-xl font-bold">250k+</div>
-                  <div className=" text-base">Successful transactions</div>
+                  <div className=" text-xl font-bold">CRA Certified</div>
+                  <div className="text-sm md:text-base">Resolving complex returns</div>
+                  <div className="text-sm md:text-base">Accurate support</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex relative flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+          <div className="flex relative flex-col ml-5 w-[50%] max-md:ml-0 max-md:w-full">
             <div className="flex w-full z-10 h-1/2">
               <div
                 className="flex flex-col bg-white gap-2 h-fit items-start max-w-[150px] md:max-w-[100px] p-2 rounded-2xl mt-4 ml-4"
@@ -76,32 +77,20 @@ function Heronew() {
                     fill="white"
                   />
                 </svg>
-                <h4 className="text-xs">Your refund</h4>
-                <p className="text-sm font-semibold">$ 3989</p>
-                <span className="flex justify-center items-center p-2 gap-2 rounded-full bg-[#AF1B19] text-white text-xs ">
-                  + 8.65%
-                  <svg
-                    width="8"
-                    height="4"
-                    viewBox="0 0 8 4"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.1852 0.0824257L7.40005 3.39767C7.60065 3.60453 7.47906 4 7.21485 4H0.785152C0.520944 4 0.399347 3.60453 0.599948 3.39767L3.8148 0.0824257C3.92137 -0.0274754 4.07863 -0.0274751 4.1852 0.0824257Z"
-                      fill="white"
-                    />
-                  </svg>
+                <h4 className="text-sm">Your refund</h4>
+                <p className="text-sm font-semibold"></p>
+                <span className="flex justify-center items-center py-2 px-4 rounded-full bg-[#19af41] text-white text-xs ">
+                $ 3989
                 </span>
               </div>
             </div>
             <img
               src={HeroImage}
               alt="ChatFiler"
-              className="absolute object-bottom z-[1] w-full h-[100%] object-cover rounded-xl"
+              className="absolute object-bottom z-[1] w-full h-[100%] object-cover rounded-3xl"
             />
             <div className="w-1/2 h-[65%] bg-red-700 z-0 blur-[175px] absolute bottom-0 right-0"></div>
-            <div className="flex flex-col max-md:hidden z-10 gap-4 justify-center items-end w-full h-1/2 ">
+            {/* <div className="flex flex-col max-md:hidden z-10 gap-4 justify-center items-start ml-[-20%] w-full h-1/2 ">
               <div className="w-[80%] flex justify-between items-start flex-col gap-4 p-4 mt-10 h-[80%] bg-white rounded-3xl">
                 <div className="flex gap-2 justify-center items-center">
                   <svg
@@ -194,7 +183,7 @@ function Heronew() {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <h1 className="font-semibold mb-4 md:hidden max-md:max-w-full max-md:text-4xl ">
             File your tax ease!
