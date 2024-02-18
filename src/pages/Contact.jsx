@@ -25,8 +25,8 @@ function Contact() {
       <form onSubmit={handleSubmit}>
         <div className="py-12 pl-20 bg-white max-md:pl-5 mt-12">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-            <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col self-stretch my-auto text-base leading-7 max-md:mt-10 max-md:max-w-full">
+            <div className="flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col w-[80%] self-stretch my-auto text-base leading-7 max-md:mt-10 max-md:max-w-[90%]">
                 <div className="text-5xl leading-[68.16px] text-zinc-900 max-md:max-w-full max-md:text-4xl">
                   Get in touch
                 </div>
@@ -109,35 +109,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col self-stretch my-auto text-xl leading-8 text-zinc-900 max-md:mt-10">
-                <div className="flex gap-4 justify-between whitespace-nowrap">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/64f1a947065a4810ca351abc83a79afba06c665b6866f9cdc6d5c1e4c162ee20?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                    className="w-6 aspect-square"
-                  />
-                  <div className="grow">5007 Ocean Avenue, Charlotte</div>
-                </div>
-                <div className="flex gap-3.5 justify-between mt-9">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9091424a0a6265c5c4834e42d5558b706ff457f281e44382aee5ec28e0d6827?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                    className="w-6 aspect-square"
-                  />
-                  <div className="flex-auto my-auto">(610) 945-7986</div>
-                </div>
-                <div className="flex gap-4 justify-between mt-8 whitespace-nowrap">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c09e759a740575fb46ed1c67a42f10bd17a4d4a2c1f1d6fc5781a6bb6c38d1e?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                    className="w-6 aspect-square"
-                  />
-                  <div className="grow">real.danieljackson@hotmail.com</div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-5 w-[40%] max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e07e5622fc8a7f3c26da2867a8b62e0a452fe164e916a8f89e3f1f4e70937ae6?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
