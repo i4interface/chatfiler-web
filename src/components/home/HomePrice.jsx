@@ -258,7 +258,7 @@ function HomePrice() {
                 aria-label="Get started with the Starter plan"
                 href="/pricing"
               >
-                Explore Premium
+                Explore Basic
               </a>
             </section>
 
@@ -528,7 +528,7 @@ function HomePrice() {
                 aria-label="Get started with the Starter plan"
                 href="/pricing"
               >
-                Explore Premium
+                Explore Plus
               </a>
             </section>
           </div>

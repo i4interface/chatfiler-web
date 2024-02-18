@@ -1,10 +1,9 @@
 import * as React from "react";
 import HeroImage from "../../images/refund-bg.jpg";
-import shadows from "@mui/material/styles/shadows";
-import { Link } from "react-router-dom";
+
 function Heronew() {
   return (
-    <section className="w-full my-0 md:my-10 xl:my-20 flex justify-center items-center px-16 py-6 md:py-12 bg-white max-md:px-5">
+    <section className="w-full flex justify-center items-center px-16 py-6 md:py-12 bg-white max-md:px-5">
       <div className="w-full h-full container max-w-[1500px] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col-reverse max-md:gap-5 ">
           <div className="flex flex-col w-6/12 max-md:w-full">

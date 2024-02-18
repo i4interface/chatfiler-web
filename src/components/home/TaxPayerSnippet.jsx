@@ -2,6 +2,12 @@ import React from "react";
 import AccordionContainer from "./TaxAccordion";
 import { Link } from "react-router-dom";
 
+import studImg from '../../images/students.png';
+import newcomImg from '../../images/newcommers.png';
+import invImg from '../../images/investor.png';
+import selfImg from '../../images/selfemployed.png';
+import worImg from '../../images/workes.png';
+
 function TaxPayerSnippet() {
   return (
     <>
@@ -33,21 +39,16 @@ function TaxPayerSnippet() {
                     taxes? Here we are! We understand that as a student, your
                     financial situation is unique.
                   </div>
-                  <Link
-                    to={'/tax-payers'}
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
+                  <a
+                    href='/tax-payers'
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
                   >
-                    <div className="grow my-auto">Learn More</div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                      className="w-5 aspect-square"
-                    />
-                  </Link>
+                    Learn More
+                  </a>
                 </div>
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2d9cb8c73f9d97d148e8cd932393872a1358b99db247a58ff8c3ac049d2b5c43?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
+                  src={studImg}
                   className="self-center max-w-full aspect-[1.39] px-4 object-cover"
                 />
               </div>
@@ -63,21 +64,16 @@ function TaxPayerSnippet() {
                     tax filing process? At Chatfilers, we recognise the unique
                     needs of workers like you.
                   </div>
-                  <Link
-                    to={'/tax-payers'}
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-2.5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
+                  <a
+                    href='/tax-payers'
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
                   >
-                    <div className="grow my-auto">Learn More</div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                      className="w-5 aspect-square"
-                    />
-                  </Link>
+                    Learn More
+                  </a>
                 </div>
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f9282cb23bf6c227975a1065ed29654b097f719cf86e39d0294cd9f4c0111817?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
+                  src={worImg}
                   className="self-center max-w-full aspect-[1.39] px-4 object-cover"
                 />
               </div>
@@ -88,21 +84,16 @@ function TaxPayerSnippet() {
                     Being your own boss comes with unique challenges, especially
                     when it comes to managing your taxes.
                   </div>
-                  <Link
-                    to={'/tax-payers'}
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-1.5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
+                  <a
+                    href='/tax-payers'
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
                   >
-                    <div className="grow my-auto">Learn More</div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                      className="w-5 aspect-square"
-                    />
-                  </Link>
+                    Learn More
+                  </a>
                 </div>
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/239d890341eb283958e41132eac4a0983cf3f08d52d67f8fabcabca489e9d4b4?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
+                  src={selfImg}
                   className="self-center max-w-full aspect-[1.39] px-4 object-cover"
                 />
               </div>
@@ -116,21 +107,16 @@ function TaxPayerSnippet() {
                   Investing can be both rewarding and complex, especially when
                   it comes to managing your taxes.
                 </div>
-                <Link
-                  to={'/tax-payers'}
-                  className="flex gap-2 justify-center self-end px-4 py-3 mt-5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
-                >
-                  <div className="grow my-auto">Learn More</div>
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                    className="w-5 aspect-square"
-                  />
-                </Link>
+                <a
+                    href='/tax-payers'
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                  >
+                    Learn More
+                  </a>
               </div>
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed613c64aa11c645eae8640dc2d1942d3ad5418cd39e5264ae4f4e8d5899f1a1?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
+                src={invImg}
                 className="self-center max-w-full aspect-[1.39] px-4 object-cover"
               />
             </div>
@@ -143,21 +129,16 @@ function TaxPayerSnippet() {
                   of adjustments. As you settle into your new life, managing
                   your taxes doesn't have to be a challenge.
                 </div>
-                <Link
-                  to={'/tax-payers'}
-                  className="flex gap-2 justify-center self-end px-4 py-3 mt-5 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0"
-                >
-                  <div className="grow my-auto">Learn More</div>
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d6e1c77a67dc2e24dd345165b2b73fc82527e4b08a55cd8615df001efb82795?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
-                    className="w-5 aspect-square"
-                  />
-                </Link>
+                <a
+                    href='/tax-payers'
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                  >
+                    Learn More
+                  </a>
               </div>
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/74d4dd82633e247d2a686f16a2a4ef1990bd351946edd669991a52ea2103db94?apiKey=b0ebdb0531a54cd5ae83bb8ca11729d9&"
+                src={newcomImg}
                 className="self-center max-w-full aspect-[1.39] px-4 object-cover"
               />
             </div>
