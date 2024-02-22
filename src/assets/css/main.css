@@ -423,8 +423,10 @@ START: Button CSS
   z-index: 9;
   display: inline-block;
   outline: none;
-  box-shadow: 15px 9px 30px 0px rgba(117, 77, 233, 0.2);
+  box-shadow: 15px 9px 30px 0px #a9030bad;
 }
+
+
 .tj-primary-btn::after {
   position: absolute;
   content: " ";

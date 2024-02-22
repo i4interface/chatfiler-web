@@ -20,14 +20,14 @@ export default function CTASection() {
       <div className="col-lg-6">
         <div className="tj-cta-content-one">
           <div className="tj-sec-heading">
-            <h2 className="title">Starthing with SaaSify is easy, fast and free</h2>
+            <h2 className="title">Starthing with ChatFiler is easy, fast.</h2>
             <p className="desc">
               It is a long established fact that a reader will be distracted by the readable
               content of a page when looking at its layout. The point of using Lorem Ipsum is that
               it has a more-or-less normal distribution of letters,
             </p>
             <div className="tj-cta-button">
-              <a className="tj-white-btn" href="contact.html"> Get started - it’s free</a>
+              <a className="tj-white-btn" href="/login"> Get started</a>
             </div>
           </div>
         </div>

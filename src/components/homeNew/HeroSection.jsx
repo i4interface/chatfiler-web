@@ -32,7 +32,7 @@ export default function HeroSection() {
           <div className="tj-sec-heading text-center">
             <span className="sub-title">CRA Certified No:1 Tax file Engine</span>
             <h1 className="title">
-              Quality <span className="shape"> Solution</span> to Make your TAX Filing easier
+              Quality Solution to Make your TAX Filing easier
             </h1>
             <p className="desc">
             Do it yourself with expert help and mentoring. Take your device and let’s start your filing
