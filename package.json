@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.17",
+    "odometer": "^0.4.8",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start" : "cross-env PORT=3001 npm run dev",
+    "start": "cross-env PORT=3001 npm run dev",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
