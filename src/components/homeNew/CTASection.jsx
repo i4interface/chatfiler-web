@@ -36,27 +36,27 @@ export default function CTASection() {
         <div className="cta-group-image text-end">
           <div className="group-part-1">
             <div className="image-1 pulse">
-              <img src="/assets/images/cta/cta-2.png" alt="Image" />
+              <img src="/images/cta/cta-2.png" alt="Image" />
             </div>
             <div className="image-2 pulse">
-              <img src="/assets/images/cta/cta-3.png" alt="Image" />
+              <img src="/images/cta/cta-3.png" alt="Image" />
             </div>
           </div>
           <div className="group-part-2">
             <div className="active-text">
               <i className="fa-light fa-check" /> Free for 15 days, no credit card requied
             </div>
-            <img className="image-3 pulse" src="/assets/images/cta/cta-1.png" alt="Image" />
+            <img className="image-3 pulse" src="/images/cta/cta-1.png" alt="Image" />
           </div>
         </div>
       </div>
     </div>
   </div>
   <div className="cta-shape">
-    <img src="/assets/images/shape/sec-shape3.svg" alt="Shape" />
+    <img src="/images/shape/sec-shape3.svg" alt="Shape" />
   </div>
   <div className="cta-shape2 pulse">
-    <img src="/assets/images/shape/sec-shape4.svg" alt="Shape" />
+    <img src="/images/shape/sec-shape4.svg" alt="Shape" />
   </div>
 </section>
 

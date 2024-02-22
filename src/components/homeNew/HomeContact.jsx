@@ -30,13 +30,13 @@ export default function HomeContact() {
             </p>
           </div>
           <div className="image-box hover-shape-border">
-            <img className="img-1" src="/assets/images/progress/contact-image.png" alt="Image" />
+            <img className="img-1" src="/images/progress/contact-image.png" alt="Image" />
             <div className="testimonial-item-shape">
               <span className="border-shadow shadow-1" />
               <span className="border-shadow shadow-2" />
             </div>
             <div className="box-shape pulse">
-              <img src="/assets/images/shape/sec-shape5.svg" alt="Shape" />
+              <img src="/images/shape/sec-shape5.svg" alt="Shape" />
             </div>
           </div>
         </div>
@@ -73,13 +73,13 @@ export default function HomeContact() {
     </div>
   </div>
   <div className="contact-bg-shape">
-    <img src="/assets/images/shape/sec-shape6.svg" alt="Shape" />
+    <img src="/images/shape/sec-shape6.svg" alt="Shape" />
   </div>
   <div className="sec-overly-1">
-    <img src="/assets/images/shape/overly-1.svg" alt="Shape" />
+    <img src="/images/shape/overly-1.svg" alt="Shape" />
   </div>
   <div className="sec-overly-2">
-    <img src="/assets/images/shape/overly-2.svg" alt="Shape" />
+    <img src="/images/shape/overly-2.svg" alt="Shape" />
   </div>
   <div className="tj-circle-box3">
     <span className="circle-1" />
