@@ -19,7 +19,7 @@ export default function AboutSection() {
     <div className="row">
       <div className="col-lg-6">
         <div className="choose-group-image">
-          <img className="image-1 shake-y" src="/images/choose/choose.png" alt="Image" />
+          <img className="image-1 shake-y" src="/images/choose/choosenew.jpg" alt="Image" />
           {/* <img className="image-2 pulse" src="/images/choose/choose-1.png" alt="Image" /> */}
           {/* <img className="image-3 pulse" src="/images/choose/choose-2.png" alt="Image" /> */}
         </div>

@@ -40,7 +40,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="hero-lg-image shake-y text-center">
-          <img src="/images/banner/hero.png" alt="Image" />
+          <img src="/images/banner/dashboard.jpg" alt="Image" />
         </div>
       </div>
     </div>

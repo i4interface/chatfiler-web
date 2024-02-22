@@ -34,21 +34,6 @@ features photo
       <div className="col-lg-4 col-md-6">
         <div className="testimonial-item hover-shape-border">
           {/* <div className="testimonial-icon">
-            <i className="flaticon-customer-service" />
-          </div> */}
-          <h5 className="title">CRA Approval and Compliance</h5>
-          <p className="desc">
-          We are a CRA-approved Netfile provider, ensuring that our platform aligns with the highest standards set by the Canada Revenue Agency. Your tax return is in safe hands with Chatfilers.
-          </p>
-          <div className="testimonial-item-shape">
-            <span className="border-shadow shadow-1" />
-            <span className="border-shadow shadow-2" />
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="testimonial-item hover-shape-border">
-          {/* <div className="testimonial-icon">
             <i className="flaticon-research-and-development" />
           </div> */}
           <h5 className="title">User-Friendly Interface</h5>
@@ -76,8 +61,6 @@ features photo
           </div>
         </div>
       </div>
-    </div>
-    <div className="row justify-content-center">
       <div className="col-lg-4 col-md-6">
         <div className="testimonial-item hover-shape-border">
           {/* <div className="testimonial-icon">
@@ -93,6 +76,9 @@ features photo
           </div>
         </div>
       </div>
+    </div>
+    <div className="row justify-content-center">
+
       <div className="col-lg-4 col-md-6">
         <div className="testimonial-item hover-shape-border">
           {/* <div className="testimonial-icon">
@@ -123,8 +109,6 @@ features photo
           </div>
         </div>
       </div>
-    </div>
-    <div className="row justify-content-center">
       <div className="col-lg-4 col-md-6">
         <div className="testimonial-item hover-shape-border">
           {/* <div className="testimonial-icon">
@@ -141,6 +125,7 @@ features photo
         </div>
       </div>
     </div>
+
     <div className="testimonial-shape1 pulse">
       <img src="/images/shape/sec-shape2.svg" alt="Shape" />
     </div>
