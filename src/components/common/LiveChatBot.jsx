@@ -6,20 +6,27 @@ function LiveChatBot() {
   const [messages, setMessages] = useState([]);
   const [isFirstTimeOpen, setIsFirstTimeOpen] = useState(true);
   const [conversationLevel, setConversationLevel] = useState(0);
-  const [userDetails, setUserDetails] = useState({});
+  const [userDetails, setUserDetails] = useState({
+    name: "",
+    email: "",
+    phone: ""
+  });
 
   useEffect(() => {
     if (isFirstTimeOpen) {
-      setTimeout(() => {
-        generateMessage("Welcome! What is your name?", "bot");
-        setConversationLevel(1);
-      }, 400);
       setIsFirstTimeOpen(false);
+      setTimeout(() => {
+        askQuestion("What is your name?");
+      }, 400);
     }
   }, [isFirstTimeOpen]);
 
   const toggleChat = () => {
     setChatOpen(!isChatOpen);
+  };
+
+  const askQuestion = (question) => {
+    generateMessage(question, "bot");
   };
 
   const handleInputChange = (e) => {
@@ -33,48 +40,43 @@ function LiveChatBot() {
       return false;
     }
 
-    generateMessage(inputValue, 'self');
+    if (conversationLevel < 3) {
+      setUserDetails((prevDetails) => {
+        const updatedDetails = { ...prevDetails };
 
-    // Simulating the server response
-    const response = getBotResponse(inputValue);
-    setConversationLevel(conversationLevel + 1);
+        switch (conversationLevel) {
+          case 0:
+            updatedDetails.name = inputValue;
+            askQuestion(`Thanks, ${inputValue}! What is your email address?`);
+            break;
+          case 1:
+            updatedDetails.email = inputValue;
+            askQuestion("Great! Lastly, please provide your phone number.");
+            break;
+          case 2:
+            updatedDetails.phone = inputValue;
+            askQuestion("Thank you for providing your details. Our support team will reach out to you shortly.");
+            break;
+          default:
+            break;
+        }
 
-    setTimeout(() => {
-      generateMessage(response, 'bot');
-    }, 1000);
-  };
+        return updatedDetails;
+      });
 
-  const getBotResponse = (userMessage) => {
-    let chatMsg = '';
-
-    switch (conversationLevel) {
-      case 1:
-        setUserDetails({ ...userDetails, name: userMessage });
-        chatMsg = `Nice to meet you, ${userMessage}! What is your email address?`;
-        break;
-      case 2:
-        setUserDetails({ ...userDetails, email: userMessage });
-        chatMsg = `Thanks! Lastly, please provide your phone number.`;
-        break;
-      case 3:
-        setUserDetails({ ...userDetails, phone: userMessage });
-        chatMsg = `Thank you for providing your details. Our support team will reach out to you shortly.`;
-        break;
-      default:
-        chatMsg = "I didn't understand.";
+      setConversationLevel(conversationLevel + 1);
     }
 
-    return chatMsg;
+    setInputValue("");
   };
 
   const generateMessage = (msg, type) => {
     const index = new Date().getTime();
     const message = (
       <div key={index} className={`chat-msg ${type}`}>
-        {type === 'self' && (
+        {type === "self" && (
           <span className="msg-avatar">
             <img src="/icons/avatar.svg" alt="" />
-            
           </span>
         )}
 
@@ -83,10 +85,6 @@ function LiveChatBot() {
     );
 
     setMessages((prevMessages) => [...prevMessages, message]);
-
-    if (type === 'self') {
-      setInputValue('');
-    }
   };
 
   return (
@@ -98,7 +96,13 @@ function LiveChatBot() {
         aria-label={isChatOpen ? "Close Chat" : "Open Chat"}
       >
         <div id="chat-overlay"></div>
-        <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">{/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}<path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z" /></svg>
+        <svg
+          fill="white"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          {/* ... (Your SVG path) */}
+        </svg>
       </div>
 
       {isChatOpen && (
@@ -113,7 +117,7 @@ function LiveChatBot() {
                 height="24"
                 fill="white"
               >
-                <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                {/* ... (Your SVG path) */}
               </svg>
             </span>
           </div>
@@ -126,12 +130,14 @@ function LiveChatBot() {
               <input
                 type="text"
                 id="chat-input"
-                placeholder="Send a message..."
+                placeholder="Your response..."
                 value={inputValue}
                 onChange={handleInputChange}
               />
               <button type="submit" className="chat-submit" id="chat-submit">
-                <svg xmlns="http://www.w3.org/2000/svg" height={24} viewBox="0 -960 960 960" width={24}><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height={24} viewBox="0 -960 960 960" width={24}>
+                  <path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z" />
+                </svg>
               </button>
             </form>
           </div>

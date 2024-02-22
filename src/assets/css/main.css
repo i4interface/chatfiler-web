@@ -1012,7 +1012,7 @@ START: Theme Heading CSS
 START: Hero CSS
 ----------------------------------------*/
 .tj-hero-section {
-  padding-top: 80px;
+  padding-top: 80px !important;
   padding-bottom: 80px;
   background-position: center;
   background-size: cover;
@@ -1069,6 +1069,10 @@ START: Hero CSS
   margin-bottom: 0;
   max-width: 1050px;
   margin: 0 auto;
+}
+
+.hero-content-area .title {
+  color: black !important;
 }
 
 .tj-hero-section-two {

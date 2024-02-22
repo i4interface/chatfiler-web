@@ -213,11 +213,9 @@
     .tj-hero-section-two .tj-star-box,
     .tj-footer-area .tj-circle-box,
     .tj-contact-section .tj-circle-box3,
-    .tj-testimonial-section .tj-circle-box3,
     .tj-progress-section .tj-circle-box3,
     .tj-about-section .tj-circle-box3,
-    .tj-about-section .tj-circle-box2,
-    .tj-hero-section .tj-circle-box {
+    .tj-about-section .tj-circle-box2 {
         display: none;
     }
 }
