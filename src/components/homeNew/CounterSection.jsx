@@ -20,19 +20,19 @@ export default function CounterSection() {
       <div className="col-lg-12">
         <div className="counter-content-box">
           <div className="counter-item">
-            <div className="tj-count"><span className="odometer" dataCount={100}>0</span>k</div>
+            <div className="tj-count"><span className="odometer" dataCount={100}>5</span>k</div>
             <span className="sub-title"> Files</span>
           </div>
           <div className="counter-item">
-            <div className="tj-count"><span className="odometer" dataCount={66}>0</span>%</div>
+            <div className="tj-count"><span className="odometer" dataCount={66}>92</span>%</div>
             <span className="sub-title"> Completion</span>
           </div>
           <div className="counter-item">
-            <div className="tj-count"><span className="odometer" dataCount={828}>0</span>k</div>
+            <div className="tj-count"><span className="odometer" dataCount={828}>8</span>k</div>
             <span className="sub-title"> Users</span>
           </div>
           <div className="counter-item">
-            <div className="tj-count"><span className="odometer" dataCount={100}>0</span>%</div>
+            <div className="tj-count"><span className="odometer" dataCount={100}>100</span>%</div>
             <span className="sub-title"> Success Rate</span>
           </div>
         </div>
