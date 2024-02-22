@@ -22,7 +22,7 @@ export default function HomeContact() {
         <div className="tj-contact-content-one">
           <div className="tj-sec-heading">
             <span className="sub-title"> Contact us</span>
-            <h2 className="title">Have cool project Get in touch!</h2>
+            <h2 className="title">Have Any Queries?</h2>
             <p className="desc">
               It is a long established fact that a reader will be distracted by the readable
               content of a page when looking at its layout. The point of using Lorem Ipsum is that

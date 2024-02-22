@@ -43,9 +43,9 @@ export default function CTASection() {
             </div>
           </div>
           <div className="group-part-2">
-            <div className="active-text">
+            {/* <div className="active-text">
               <i className="fa-light fa-check" /> Free for 15 days, no credit card requied
-            </div>
+            </div> */}
             <img className="image-3 pulse" src="/images/cta/cta-1.png" alt="Image" />
           </div>
         </div>
