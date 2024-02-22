@@ -20,11 +20,11 @@ export default function FeatureSnippet() {
       <div className="col-lg-12">
         <div className="top-header">
           <div className="tj-sec-heading text-center">
-            <h2 className="title">Get everything in place</h2>
+            <h2 className="title">How We Are Different</h2>
             <p className="desc">
-              But I must explain to you how all this mistaken idea of denouncing pleasure and
-              praising pain was born and I will give you a complete of the system, and teachings
-              of the great explorer of the the.
+            As a trusted CRA-approved Netfile provider, we take pride in offering a seamless experience for individuals and businesses across Canada.
+features photo
+
             </p>
           </div>
         </div>
@@ -69,6 +69,70 @@ export default function FeatureSnippet() {
           <h5 className="title">Security is our top priority</h5>
           <p className="desc">
           No matter what, security is our atmost priority. Benefit from state-of-the-art encryption and privacy measures that safeguard your sensitive financial information throughout the entire tax filing process.
+          </p>
+          <div className="testimonial-item-shape">
+            <span className="border-shadow shadow-1" />
+            <span className="border-shadow shadow-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      <div className="col-lg-4 col-md-6">
+        <div className="testimonial-item hover-shape-border">
+          {/* <div className="testimonial-icon">
+            <i className="flaticon-customer-service" />
+          </div> */}
+          <h5 className="title">Real-Time Error Checking</h5>
+          <p className="desc">
+          Say goodbye to the stress of potential errors in your tax return. Our platform checks for errors in real-time, ensuring that your submission is accurate before you hit submit.
+          </p>
+          <div className="testimonial-item-shape">
+            <span className="border-shadow shadow-1" />
+            <span className="border-shadow shadow-2" />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-4 col-md-6">
+        <div className="testimonial-item hover-shape-border">
+          {/* <div className="testimonial-icon">
+            <i className="flaticon-research-and-development" />
+          </div> */}
+          <h5 className="title">Expertise at Your Fingertips</h5>
+          <p className="desc">
+          Rely on the expertise of our professionals who understand the intricacies of Canadian tax regulations. Chatfilers combines innovation with a deep understanding of tax laws to provide you with accurate and reliable results.
+          </p>
+          <div className="testimonial-item-shape">
+            <span className="border-shadow shadow-1" />
+            <span className="border-shadow shadow-2" />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-4 col-md-6">
+        <div className="testimonial-item hover-shape-border">
+          {/* <div className="testimonial-icon">
+            <i className="flaticon-earning" />
+          </div> */}
+          <h5 className="title">Efficiency Without Compromise</h5>
+          <p className="desc">
+          Experience a seamless and efficient tax filing process without compromising on accuracy. Chatfilers is committed to providing a swift and hassle-free experience for all our users.
+          </p>
+          <div className="testimonial-item-shape">
+            <span className="border-shadow shadow-1" />
+            <span className="border-shadow shadow-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      <div className="col-lg-4 col-md-6">
+        <div className="testimonial-item hover-shape-border">
+          {/* <div className="testimonial-icon">
+            <i className="flaticon-customer-service" />
+          </div> */}
+          <h5 className="title">Real-Time Updates & Notifications</h5>
+          <p className="desc">
+          Stay informed throughout the entire process with real-time updates on the status of your tax return. Receive notifications as soon as your submission is processed, offering you peace of mind.
           </p>
           <div className="testimonial-item-shape">
             <span className="border-shadow shadow-1" />
