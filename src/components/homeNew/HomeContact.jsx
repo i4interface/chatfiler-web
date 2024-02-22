@@ -30,7 +30,7 @@ export default function HomeContact() {
             </p>
           </div>
           <div className="image-box hover-shape-border">
-            <img className="img-1" src="/images/progress/contact-image.png" alt="Image" />
+            <img className="img-1" src="/images/equity.png" alt="Image" />
             <div className="testimonial-item-shape">
               <span className="border-shadow shadow-1" />
               <span className="border-shadow shadow-2" />
