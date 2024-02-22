@@ -24,9 +24,7 @@ export default function HomeContact() {
             <span className="sub-title"> Contact us</span>
             <h2 className="title">Have Any Queries?</h2>
             <p className="desc">
-              It is a long established fact that a reader will be distracted by the readable
-              content of a page when looking at its layout. The point of using Lorem Ipsum is that
-              it has a more-or-less normal distribution of letters,
+            Advising companies on long-term growth, and market positioning.
             </p>
           </div>
           <div className="image-box hover-shape-border">

@@ -30,7 +30,7 @@ export default function HeroSection() {
       <div className="col-lg-12">
         <div className="hero-content-area text-center">
           <div className="tj-sec-heading text-center">
-            <span className="sub-title">CRA Certified No:1 Tax file Engine</span>
+            <span className="sub-title">#1 CRA Certified Tax file Engine</span>
             <h1 className="title">
               Quality Solution to Make your TAX Filing easier
             </h1>

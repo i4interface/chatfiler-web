@@ -59,14 +59,14 @@ function Footer() {
               <div className="flex gap-5 justify-between text-lg leading-8 text-white max-lg:mt-10">
                 <div className="flex flex-col flex-1 whitespace-nowrap">
                   <h2 className="text-lg">Quick Links</h2>
-                  <a href="/news" className="text-sm font-regular mt-4 hover:text-red-700">
+                  {/* <a href="/news" className="text-sm font-regular mt-4 hover:text-red-700">
                     News/Updates
-                  </a>
+                  </a> */}
                   <a href="/faq" className="text-sm font-regular mt-4 hover:text-red-700">
                     F.A.Q
                   </a>
-                  <a href="/taxp-payers" className="text-sm font-regular mt-4 hover:text-red-700">
-                    Services
+                  <a href="/tax-payers" className="text-sm font-regular mt-4 hover:text-red-700">
+                    Tax Payers
                   </a>
                 </div>
                 <div className="flex flex-col flex-1 self-start">
@@ -92,7 +92,7 @@ function Footer() {
                   info@chatfiler.ca
                 </div>
                 <a href="/login"
-                  className="p-4 mt-9 text-lg bg-red-700 rounded-full max-lg:px-5 "
+                  className="px-4 py-2 mt-9 text-lg bg-red-700 rounded-full max-lg:px-5 "
                   
                 >
                   Login/Register

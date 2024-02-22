@@ -104,7 +104,7 @@ function Contact() {
                     placeholder="Message"
                   />
                 </div>
-                <div className="justify-center items-center px-16 py-5 mt-8 max-w-full text-lg leading-7 text-white whitespace-nowrap bg-red-700 rounded-3xl w-[196px] max-md:px-5">
+                <div className="justify-center items-center px-16 py-2 mt-8 max-w-full text-lg leading-7 text-white whitespace-nowrap bg-red-700 rounded-3xl w-[196px] max-md:px-5">
                   <button type="submit">Submit</button>
                 </div>
               </div>

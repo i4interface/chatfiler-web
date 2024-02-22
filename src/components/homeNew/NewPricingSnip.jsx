@@ -34,7 +34,7 @@ export default function NewPricingSnip() {
                   <div className="price-content">
                     <h6 className="title">Basic Plan</h6>
                     <div className="price">
-                    1.49$ <span className="month"> /return (excl. tax)</span>
+                    Pay What You Want <span className="month"> even $0</span>
                     </div>
                   </div>
                   {/* <div className="price-icon">
@@ -84,7 +84,7 @@ export default function NewPricingSnip() {
                   <div className="price-content">
                     <h6 className="title">Premium Plans</h6>
                     <div className="price">
-                    49.99$ - 129$ <span className="month"> (excl. Tax)</span>
+                    $49.99 - $129 <span className="month"> (excl. Tax)</span>
                     </div>
                   </div>
                   {/* <div className="price-icon">
@@ -123,7 +123,7 @@ export default function NewPricingSnip() {
                   <div className="price-content">
                     <h6 className="title">Plus Plan</h6>
                     <div className="price">
-                    29.99$ <span className="month"> /2 returns (excl. tax)</span>
+                    $29.99 <span className="month"> /2 returns (excl. tax)</span>
                     </div>
                   </div>
                   {/* <div className="price-icon">
