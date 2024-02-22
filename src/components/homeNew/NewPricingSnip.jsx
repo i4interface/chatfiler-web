@@ -132,10 +132,10 @@ export default function NewPricingSnip() {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="tj-price-item">
+              <div className="tj-price-item price-active">
                 <div className="price-top-header">
                   <div className="price-content">
-                    <h6 className="title">Premium Planse</h6>
+                    <h6 className="title">Premium Plans</h6>
                     <div className="price">
                     49.99$ - 129$ <span className="month"> (excl. Tax)</span>
                     </div>
