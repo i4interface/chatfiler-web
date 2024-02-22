@@ -28,10 +28,10 @@ function Pricing() {
                 Basic
               </h3>
               <p className="relative mt-5 text-3xl tracking-tight text-gray-900">
-                $1.49
-                <sub className="text-sm font-medium">
-                  Per return <span>(excl. tax)</span>{" "}
-                </sub>
+              Pay What You Want 
+                <p className="text-sm font-medium">
+                even $0 
+                </p>
               </p>
               {/* <p className="mt-5 text-sm text-gray-700">
                 Joy horrible moreover man feelings own shy. Request norland
@@ -277,11 +277,11 @@ function Pricing() {
               <h3 className="text-sm/snug font-semibold text-white uppercase">
                 Plus
               </h3>
-              <p className="relative mt-5 text-3xl tracking-tight text-gray-900">
+              <p className="relative mt-5 text-3xl font-medium tracking-tight text-white">
                 $29.99
-                <sub className="text-sm font-medium">
+                <p className="text-sm font-medium">
                   Per 2 returns <span>(excl. tax)</span>
-                </sub>
+                </p>
               </p>
               {/* <p className="mt-5 text-sm text-white">
                 On even feet time have an no at. Relation so in confined
@@ -560,65 +560,66 @@ function Pricing() {
                 <span>(excl. Tax)</span>
               </div>
 
-              <div className="p-10">
-                <ul className="mb-10 text-center">
-                  <li className="my-4">
-                    <h5 className="font-medium">
+              <div className="py-8 px-10">
+                <ul className="mb-8 text-start ">
+                  <li className="my-2 ">
+                    <h5 className="font-normal text-black text-lg">
+                      
                       Book a 20 min session with us after filling all the
                       information, we will review it and guide you through the
                       submission process.
                     </h5>
                   </li>
                   <li>
-                    <h5 className="font-medium">One return per plan</h5>
+                    <h5 className="font-normal text-black text-lg">One return per plan</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Ideal for family and Beginners
                     </h5>
                   </li>
-                  <li>
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Include everything in the “Do it yourself” plan + review
                       by a tax expert.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Chat Support for Tax & Technical Issues.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Customized Tax Savings Tips for your scenario.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Stocks, Capital Gains/Losses & Investments
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Pension Income</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Pension Income</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Unlimited T4 and other slips
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Audit Protection</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Audit Protection</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Property Disposal</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Property Disposal</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium text-gray-500 line-through">
+                  <li className="my-2">
+                    <h5 className="font-normal text-gray-500 text-lg line-through">
                       Rental Income & foreign Income
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium text-gray-500 line-through">
+                  <li className="my-2">
+                    <h5 className="font-normal text-gray-500  text-lg line-through">
                       Business & Self- Employment Income
                     </h5>
                   </li>
@@ -656,64 +657,64 @@ function Pricing() {
                       </div>
 
                       <div className="p-10">
-                        <ul className="mb-10 text-center">
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                        <ul className="mb-8 text-start">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Book a 30 min session with us after filling all
                               the information, we will review it and guide you
                               through the submission process.
                             </h5>
                           </li>
                           <li>
-                            <h5 className="font-medium">One return per plan</h5>
+                            <h5 className="font-normal text-black text-lg">One return per plan</h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Ideal for family and Beginners
                             </h5>
                           </li>
                           <li>
-                            <h5 className="font-medium">
+                            <h5 className="font-normal text-black text-lg">
                               Include everything in the “Do it yourself” plan +
                               review by a tax expert.
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Chat Support for Tax & Technical Issues.
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Customized Tax Savings Tips for your scenario.
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Stocks, Capital Gains/Losses & Investments
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">Pension Income</h5>
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">Pension Income</h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">
                               Unlimited T4 and other slips
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">Audit Protection</h5>
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">Audit Protection</h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium">Property Disposal</h5>
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg">Property Disposal</h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium ">
+                          <li className="my-2">
+                            <h5 className="font-normal text-black text-lg ">
                               Rental Income & foreign Income
                             </h5>
                           </li>
-                          <li className="my-4">
-                            <h5 className="font-medium text-gray-500 line-through">
+                          <li className="my-2">
+                            <h5 className="font-normal text-lg text-gray-500 line-through">
                               Business & Self- Employment Income
                             </h5>
                           </li>
@@ -730,7 +731,7 @@ function Pricing() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute bg-neutral-300/30 rounded-xl h-full left-0 top-0 w-full translate-x-2 translate-y-2 -z-10"></div>
+                
               </div>
             </div>
 
@@ -745,64 +746,64 @@ function Pricing() {
               </div>
 
               <div className="p-10">
-                <ul className="mb-10 text-center">
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                <ul className="mb-8 text-start">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Book a 30 min session with us after filling all the
                       information, we will review it and guide you through the
                       submission process.
                     </h5>
                   </li>
                   <li>
-                    <h5 className="font-medium">One return per plan</h5>
+                    <h5 className="font-normal text-black text-lg">One return per plan</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Ideal for family and Beginners
                     </h5>
                   </li>
                   <li>
-                    <h5 className="font-medium">
+                    <h5 className="font-normal text-black text-lg">
                       Include everything in the “Do it yourself” plan + review
                       by a tax expert.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Chat Support for Tax & Technical Issues.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Customized Tax Savings Tips for your scenario.
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Stocks, Capital Gains/Losses & Investments
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Pension Income</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Pension Income</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Unlimited T4 and other slips
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Audit Protection</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Audit Protection</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">Property Disposal</h5>
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">Property Disposal</h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium ">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg ">
                       Rental Income & foreign Income
                     </h5>
                   </li>
-                  <li className="my-4">
-                    <h5 className="font-medium">
+                  <li className="my-2">
+                    <h5 className="font-normal text-black text-lg">
                       Business & Self- Employment Income
                     </h5>
                   </li>
@@ -810,7 +811,7 @@ function Pricing() {
                 <div className="flex justify-center">
                   <a
                     href="/contact"
-                    className="py-3 px-6 font-medium border rounded-md border-red-700 text-red-700 hover:bg-red-700 hover:text-white transition-all duration-500"
+                    className="py-3 px-6 font-medium text-lg border rounded-md border-red-700 text-red-700 hover:bg-red-700 hover:text-white transition-all duration-500"
                   >
                     ADVANCED PLAN
                   </a>

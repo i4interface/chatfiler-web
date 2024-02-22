@@ -10,8 +10,8 @@ function Layout({children}) {
     <>
     <Header/>
       {children}
-      <LiveBot/>
-      {/* <LiveChatBot/> */}
+      {/* <LiveBot/> */}
+      <LiveChatBot/>
     <Footer/>
     </>
   )

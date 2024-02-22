@@ -13,7 +13,7 @@ function About() {
       <Mission/>
       <WhyChoose />
       <KeyPoints/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
 
     </Layout>
   )

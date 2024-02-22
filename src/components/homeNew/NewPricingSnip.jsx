@@ -72,53 +72,15 @@ export default function NewPricingSnip() {
                 <div className="tj-price-button text-center">
                   <a className="tj-transparent-btn" href="#">
                     {" "}
-                    Get The Plan Now
+                    Get Basic Plan
                   </a>
                 </div>
               </div>
             </div>
+
 
             <div className="col-lg-4 col-md-6">
               <div className="tj-price-item price-active">
-                <div className="price-top-header">
-                  <div className="price-content">
-                    <h6 className="title">Premium Plans</h6>
-                    <div className="price">
-                    $49.99 - $129 <span className="month"> (excl. Tax)</span>
-                    </div>
-                  </div>
-                  {/* <div className="price-icon">
-                    <i className="flaticon-management" />
-                  </div> */}
-                </div>
-                <div className="price-list">
-                  <ul className="list-gap">
-                    <li>
-                      <i className="flaticon-checkmark" /> Dedicated guide session
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Chat Support for Tax & Technical Issues.
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Customized Tax Savings Tips for your scenario.
-                    </li>
-
-                    <li>
-                       and many more...
-                    </li>
-                  </ul>
-                </div>
-                <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="/pricing">
-                    {" "}
-                    Explore Premium Plans
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="tj-price-item">
                 <div className="price-top-header">
                   <div className="price-content">
                     <h6 className="title">Plus Plan</h6>
@@ -165,11 +127,51 @@ export default function NewPricingSnip() {
                 <div className="tj-price-button text-center">
                   <a className="tj-transparent-btn" href="#">
                     {" "}
-                    Get The Plan Now
+                    Get Plus Plan
                   </a>
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="tj-price-item">
+                <div className="price-top-header">
+                  <div className="price-content">
+                    <h6 className="title">Premium Plans</h6>
+                    <div className="price">
+                    $49.99 - $129 <span className="month"> (excl. Tax)</span>
+                    </div>
+                  </div>
+                  {/* <div className="price-icon">
+                    <i className="flaticon-management" />
+                  </div> */}
+                </div>
+                <div className="price-list">
+                  <ul className="list-gap">
+                    <li>
+                      <i className="flaticon-checkmark" /> Dedicated guide session
+                    </li>
+                    <li>
+                      <i className="flaticon-checkmark" /> Chat Support for Tax & Technical Issues.
+                    </li>
+                    <li>
+                      <i className="flaticon-checkmark" /> Customized Tax Savings Tips for your scenario.
+                    </li>
+
+                    <li>
+                       and many more...
+                    </li>
+                  </ul>
+                </div>
+                <div className="tj-price-button text-center">
+                  <a className="tj-transparent-btn" href="/pricing">
+                    {" "}
+                    Explore Premium Plans
+                  </a>
+                </div>
+              </div>
+            </div>
+
 
           </div>
           <div className="price-shape pulse">
