@@ -14,7 +14,7 @@ import '../../assets/css/responsive.css';
 export default function HeroSection() {
   return (
     <>
-<section className="tj-hero-section" data-bg-image="/assets/images/banner/bg-group-3.svg">
+<section className="tj-hero-section" data-bg-image="/images/banner/bg-group-3.svg">
   <div className="tj-circle-box">
     <span className="circle-1" />
     <span className="circle-2" />

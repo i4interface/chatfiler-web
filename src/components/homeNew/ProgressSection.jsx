@@ -50,7 +50,7 @@ export default function ProgressSection() {
       </div>
       <div className="col-lg-6">
         <div className="progress-group-image d-flex flex-wrap align-items-start flex-column">
-          <img className="group-1 shake-y" src="/images/progress/progress-1.png" alt="Image" />
+          <img className="group-1 shake-y" src="/images/business-woman.jpg" alt="Image" />
           {/* <img className="group-2 pulse" src="/images/progress/progress-2.png" alt="Image" /> */}
           {/* <img className="group-3 pulse" src="/images/progress/progress-3.png" alt="Image" /> */}
         </div>
