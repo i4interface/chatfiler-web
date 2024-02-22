@@ -81,14 +81,14 @@ function Header() {
             >
               Tax Payers
             </a>
-            <a
+            {/* <a
               href="/news"
               className={`font-poppins text-gray-700 ${
                 isCurrentPage("/news") && "text-red-700"
               }`}
             >
               News/Update
-            </a>
+            </a> */}
             <a
               href="/pricing"
               className={`font-poppins text-gray-700 ${
@@ -165,14 +165,14 @@ function Header() {
           >
             Tax Payers
           </a>
-          <a
+          {/* <a
             href="/news"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/news") && "text-red-700"
             }`}
           >
             News/Update
-          </a>
+          </a> */}
           <a
             href="/pricing"
             className={`block text-black font-poppins py-2 ${
