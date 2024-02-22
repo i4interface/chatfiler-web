@@ -22,9 +22,7 @@ export default function FeatureSnippet() {
           <div className="tj-sec-heading text-center">
             <h2 className="title">How We Are Different</h2>
             <p className="desc">
-            As a trusted CRA-approved Netfile provider, we take pride in offering a seamless experience for individuals and businesses across Canada.
-features photo
-
+            You can use something like this: "ChatFiler uses a CRA NETFILE Certified Tax Engine that ensures quality and accuracy. You can trust ChatFiler to process your tax return with care and precision."
             </p>
           </div>
         </div>
