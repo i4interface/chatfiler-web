@@ -28,11 +28,9 @@ export default function CTASection() {
             <div className="choose-list">
               <ul  className="list-gap">
                 <li style={{color:'white'}}><i className="flaticon-checkmark" /> Netfile your return directly to CRA</li>
-                <br />
                 <li style={{color:'white'}}>
                   <i className="flaticon-checkmark" /> Import tax slips from CRA
                 </li>
-                <br />
                 <li style={{color:'white'}}>
                   <i className="flaticon-checkmark" /> 24/7 chat support
                 </li>
@@ -47,15 +45,15 @@ export default function CTASection() {
       </div>
       <div className="col-lg-6">
         <div className="cta-group-image text-end">
-          <div className="group-part-1">
+          {/* <div className="group-part-1">
             <div className="image-1 pulse">
               <img src="/images/cta/cta-2.png" alt="Image" />
             </div>
             <div className="image-2 pulse">
               <img src="/images/cta/cta-3.png" alt="Image" />
             </div>
-          </div>
-          <div className="group-part-2">
+          </div> */}
+          <div className="group-part-1">
             {/* <div className="active-text">
               <i className="fa-light fa-check" /> Free for 15 days, no credit card requied
             </div> */}

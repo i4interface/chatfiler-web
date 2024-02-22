@@ -17,6 +17,7 @@ import CounterSection from "../components/homeNew/CounterSection";
 import FeatureSnippet from "../components/homeNew/FeatureSnippet";
 import CTASection from "../components/homeNew/CTASection";
 import HomeContact from "../components/homeNew/HomeContact";
+import CTANew from "../components/homeNew/CTANew";
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
       <CounterSection />
       <FeatureSnippet />
       <NewPricingSnip/>
-      <CTASection/>
+      <CTANew/>
       <HomeContact/>
     </Layout>
   );

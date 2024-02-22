@@ -3036,12 +3036,16 @@ START: Cta CSS
   color: var(--tj-color-extra-4);
 }
 .cta-content-two .cta-text .active-button ul .list-2 {
-  background: var(--tj-color-extra-6);
-  color: var(--tj-color-extra-1);
+  /* background: var(--tj-color-extra-6); */
+  background: var(--tj-color-extra-5);
+  color: var(--tj-color-extra-4);
+  /* color: var(--tj-color-extra-1); */
 }
 .cta-content-two .cta-text .active-button ul .list-3 {
-  background: var(--tj-color-extra-7);
-  color: var(--tj-color-extra-2);
+  /* background: var(--tj-color-extra-7); */
+  background: var(--tj-color-extra-5);
+  color: var(--tj-color-extra-4);
+  /* color: var(--tj-color-extra-2); */
 }
 .cta-content-two .cta-text .desc {
   color: var(--tj-color-common-white);
