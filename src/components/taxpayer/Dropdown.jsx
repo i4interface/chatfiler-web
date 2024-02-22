@@ -9,10 +9,10 @@ const Dropdown = () => {
 
   const initialItem = (
     <li>
-      <div className="flex items-center justify-center mt-3 text-red-700 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+      <div className="flex items-center justify-center mt-3 text-red-700 border-b-[1px] border-gray-300 w-[80%]">
         <a
           href="#"
-          className="justify-center items-start py-5 pr-16 pl-4 font-bold bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+          className="justify-center items-start py-5 pr-16 pl-4 font-bold max-md:pr-5 hover:text-red-700 cursor-pointer"
         >
           Students
         </a>
@@ -49,8 +49,8 @@ const Dropdown = () => {
       {showAll &&
         restItems.map((item, index) => (
           <li key={index}>
-            <div className="flex flex-col justify-center mt-3 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
-              <div className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer">
+            <div className="flex flex-col justify-center mt-3 border-b-[1px] border-gray-300 w-[80%]">
+              <div className="justify-center items-start py-5 pr-16 pl-4 max-md:pr-5 hover:text-red-700 cursor-pointer">
                 {item.title}
               </div>
             </div>

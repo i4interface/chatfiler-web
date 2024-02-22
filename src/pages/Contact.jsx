@@ -35,7 +35,7 @@ function Contact() {
                   positioning.
                 </div>
                 <div className="flex gap-4 justify-between mt-5 max-md:flex-wrap max-md:max-w-full">
-                  <div className="flex flex-col flex-1 justify-center pt-2 bg-black bg-opacity-0">
+                  <div className="flex flex-col flex-1 justify-center pt-2 ">
                     
                     <label
                       htmlFor="fullName"
@@ -54,7 +54,7 @@ function Contact() {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-center pt-2 mt-4 bg-black bg-opacity-0 max-md:max-w-full">
+                <div className="flex flex-col justify-center pt-2 mt-4 max-md:max-w-full">
                     <label
                       htmlFor="phoneNum"
                       className="font-bold text-gray-700"
@@ -71,7 +71,7 @@ function Contact() {
                       placeholder="Phone Number"
                     />
                   </div>
-                <div className="flex flex-col justify-center pt-2 mt-4 bg-black bg-opacity-0 max-md:max-w-full">
+                <div className="flex flex-col justify-center pt-2 mt-4 max-md:max-w-full">
                   <label
                     htmlFor="email"
                     className="font-bold text-gray-700 max-md:max-w-full"
@@ -88,7 +88,7 @@ function Contact() {
                     placeholder="Email"
                   />
                 </div>
-                <div className="flex flex-col justify-center pt-2 mt-4 bg-black bg-opacity-0 max-md:max-w-full">
+                <div className="flex flex-col justify-center pt-2 mt-4 max-md:max-w-full">
                   <label
                     htmlFor="message"
                     className="font-bold text-gray-700 max-md:max-w-full"

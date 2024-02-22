@@ -13,12 +13,12 @@ function NewsComp({ data }) {
           <h1 className="mt-9 text-3xl leading-10">{item.title}</h1>
           <div className="mt-6 text-sm leading-6">{item.description}</div>
           <div className="flex gap-5 justify-between mt-9 w-full text-red-700 whitespace-nowrap">
-            <div className="flex flex-col justify-center my-auto text-sm leading-5 aspect-[1.58] bg-black bg-opacity-0">
+            <div className="flex flex-col justify-center my-auto text-sm leading-5 aspect-[1.58] ">
               <div className="justify-center px-3 py-3.5 rounded-2xl aspect-[1.58] bg-neutral-100">
                 Skills
               </div>
             </div>
-            <button className="flex gap-2 justify-between px-4 py-3 text-base leading-7 rounded bg-black bg-opacity-0">
+            <button className="flex gap-2 justify-between px-4 py-3 text-base leading-7 rounded ">
               <div className="grow my-auto">Learn more</div>
               <img
                 loading="lazy"

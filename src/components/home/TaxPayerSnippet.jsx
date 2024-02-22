@@ -41,7 +41,7 @@ function TaxPayerSnippet() {
                   </div>
                   <a
                     href='/tax-payers'
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded hover:text-gray-800"
                   >
                     Learn More
                   </a>
@@ -66,7 +66,7 @@ function TaxPayerSnippet() {
                   </div>
                   <a
                     href='/tax-payers'
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded hover:text-gray-800"
                   >
                     Learn More
                   </a>
@@ -86,7 +86,7 @@ function TaxPayerSnippet() {
                   </div>
                   <a
                     href='/tax-payers'
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded hover:text-gray-800"
                   >
                     Learn More
                   </a>
@@ -109,7 +109,7 @@ function TaxPayerSnippet() {
                 </div>
                 <a
                     href='/tax-payers'
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded hover:text-gray-800"
                   >
                     Learn More
                   </a>
@@ -131,7 +131,7 @@ function TaxPayerSnippet() {
                 </div>
                 <a
                     href='/tax-payers'
-                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded bg-black bg-opacity-0 hover:text-gray-800"
+                    className="flex gap-2 justify-center self-end px-4 py-3 mt-8 text-base leading-7 text-red-700 whitespace-nowrap rounded hover:text-gray-800"
                   >
                     Learn More
                   </a>

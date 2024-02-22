@@ -229,50 +229,50 @@ function TaxPayerDetail() {
                 </div>
                 <ul className="md:hidden flex overflow-x-auto">
                   <li>
-                    <div className="flex items-center justify-center mt-3  bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+                    <div className="flex items-center justify-center mt-3 ">
                       <div
                         onClick={() => handleContentCase("students")}
-                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'students' ? 'font-bold text-red-700' : ''} bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer`}
+                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'students' ? 'font-bold text-red-700' : ''}  max-md:pr-5 hover:text-red-700 cursor-pointer`}
                       >
                         Students
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div className="flex items-center justify-center mt-3  bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+                    <div className="flex items-center justify-center mt-3   border-b-[1px] border-gray-300 w-[80%]">
                       <div
                         onClick={() => handleContentCase("workers")}
-                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'workers' ? 'font-bold text-red-700' : ''} bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer`}
+                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'workers' ? 'font-bold text-red-700' : ''}  max-md:pr-5 hover:text-red-700 cursor-pointer`}
                       >
                         Workers
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div className="flex items-center justify-center mt-3  bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+                    <div className="flex items-center justify-center mt-3   border-b-[1px] border-gray-300 w-[80%]">
                       <div
                         onClick={() => handleContentCase("newcommers")}
-                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'newcommers' ? 'font-bold text-red-700' : ''} bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer`}
+                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'newcommers' ? 'font-bold text-red-700' : ''}  max-md:pr-5 hover:text-red-700 cursor-pointer`}
                       >
                         Newcommers
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div className="flex items-center justify-center mt-3  bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+                    <div className="flex items-center justify-center mt-3   border-b-[1px] border-gray-300 w-[80%]">
                       <div
                         onClick={() => handleContentCase("selfemployed")}
-                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'selfemployed' ? 'font-bold text-red-700' : ''} bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer`}
+                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'selfemployed' ? 'font-bold text-red-700' : ''}  max-md:pr-5 hover:text-red-700 cursor-pointer`}
                       >
                         Self-Employed
                       </div>
                     </div>
                   </li>
                   <li>
-                    <div className="flex items-center justify-center mt-3  bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%]">
+                    <div className="flex items-center justify-center mt-3   border-b-[1px] border-gray-300 w-[80%]">
                       <div
                         onClick={() => handleContentCase("investors")}
-                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'investors' ? 'font-bold text-red-700' : ''} bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer`}
+                        className={`justify-center items-start py-5 pr-16 pl-4 ${selectedCategory === 'investors' ? 'font-bold text-red-700' : ''} max-md:pr-5 hover:text-red-700 cursor-pointer`}
                       >
                         Investors
                       </div>
@@ -283,7 +283,7 @@ function TaxPayerDetail() {
                 <ul className="hidden md:block">
                   <li>
                     <div
-                      className={`flex flex-col justify-center mt-3 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%] ${
+                      className={`flex flex-col justify-center mt-3  border-b-[1px] border-gray-300 w-[80%] ${
                         selectedCategory === "students"
                           ? "text-red-700 font-bold"
                           : ""
@@ -291,7 +291,7 @@ function TaxPayerDetail() {
                     >
                       <div
                         onClick={() => handleContentCase("students")}
-                        className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+                        className="justify-center items-start py-5 pr-16 pl-4  max-md:pr-5 hover:text-red-700 cursor-pointer"
                       >
                         Students
                       </div>
@@ -299,7 +299,7 @@ function TaxPayerDetail() {
                   </li>
                   <li>
                     <div
-                      className={`flex flex-col justify-center mt-2.5 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%] ${
+                      className={`flex flex-col justify-center mt-2.5  border-b-[1px] border-gray-300 w-[80%] ${
                         selectedCategory === "workers"
                           ? "text-red-700 font-bold"
                           : ""
@@ -307,7 +307,7 @@ function TaxPayerDetail() {
                     >
                       <div
                         onClick={() => handleContentCase("workers")}
-                        className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+                        className="justify-center items-start py-5 pr-16 pl-4  max-md:pr-5 hover:text-red-700 cursor-pointer"
                       >
                         Workers
                       </div>
@@ -315,7 +315,7 @@ function TaxPayerDetail() {
                   </li>
                   <li>
                     <div
-                      className={`flex flex-col justify-center mt-3 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%] ${
+                      className={`flex flex-col justify-center mt-3  border-b-[1px] border-gray-300 w-[80%] ${
                         selectedCategory === "newcommers"
                           ? "text-red-700 font-bold"
                           : ""
@@ -323,7 +323,7 @@ function TaxPayerDetail() {
                     >
                       <div
                         onClick={() => handleContentCase("newcommers")}
-                        className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+                        className="justify-center items-start py-5 pr-16 pl-4  max-md:pr-5 hover:text-red-700 cursor-pointer"
                       >
                         Newcomers
                       </div>
@@ -331,7 +331,7 @@ function TaxPayerDetail() {
                   </li>
                   <li>
                     <div
-                      className={`flex flex-col justify-center mt-3 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%] ${
+                      className={`flex flex-col justify-center mt-3  border-b-[1px] border-gray-300 w-[80%] ${
                         selectedCategory === "selfemployed"
                           ? "text-red-700 font-bold"
                           : ""
@@ -339,7 +339,7 @@ function TaxPayerDetail() {
                     >
                       <div
                         onClick={() => handleContentCase("selfemployed")}
-                        className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+                        className="justify-center items-start py-5 pr-16 pl-4  max-md:pr-5 hover:text-red-700 cursor-pointer"
                       >
                         Self-Employed
                       </div>
@@ -347,7 +347,7 @@ function TaxPayerDetail() {
                   </li>
                   <li>
                     <div
-                      className={`flex flex-col justify-center mt-3 bg-black bg-opacity-0 border-b-[1px] border-gray-300 w-[80%] ${
+                      className={`flex flex-col justify-center mt-3  border-b-[1px] border-gray-300 w-[80%] ${
                         selectedCategory === "investors"
                           ? "text-red-700 font-bold"
                           : ""
@@ -355,7 +355,7 @@ function TaxPayerDetail() {
                     >
                       <div
                         onClick={() => handleContentCase("investors")}
-                        className="justify-center items-start py-5 pr-16 pl-4 bg-black bg-opacity-0 max-md:pr-5 hover:text-red-700 cursor-pointer"
+                        className="justify-center items-start py-5 pr-16 pl-4  max-md:pr-5 hover:text-red-700 cursor-pointer"
                       >
                         Investors
                       </div>
