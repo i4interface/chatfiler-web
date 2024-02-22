@@ -28,7 +28,7 @@ export default function NewPricingSnip() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="tj-price-item">
                 <div className="price-top-header">
                   <div className="price-content">
@@ -78,7 +78,7 @@ export default function NewPricingSnip() {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="tj-price-item">
                 <div className="price-top-header">
                   <div className="price-content">
@@ -135,9 +135,9 @@ export default function NewPricingSnip() {
               <div className="tj-price-item">
                 <div className="price-top-header">
                   <div className="price-content">
-                    <h6 className="title">Pro Plan</h6>
+                    <h6 className="title">Premium Planse</h6>
                     <div className="price">
-                    49.99$ <span className="month"> (excl. Tax)</span>
+                    49.99$ - 129$ <span className="month"> (excl. Tax)</span>
                     </div>
                   </div>
                   {/* <div className="price-icon">
@@ -147,16 +147,7 @@ export default function NewPricingSnip() {
                 <div className="price-list">
                   <ul className="list-gap">
                     <li>
-                      <i className="flaticon-checkmark" /> 20 min guide session
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> One return per plan
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Ideal for family and Beginners
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Base & Plus Plan with review by a tax expert
+                      <i className="flaticon-checkmark" /> Dedicated guide session
                     </li>
                     <li>
                       <i className="flaticon-checkmark" /> Chat Support for Tax & Technical Issues.
@@ -164,174 +155,16 @@ export default function NewPricingSnip() {
                     <li>
                       <i className="flaticon-checkmark" /> Customized Tax Savings Tips for your scenario.
                     </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Stocks, Capital Gains/Losses & Investments
 
-                    </li>
                     <li>
-                      <i className="flaticon-checkmark" /> Pension Income
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Unlimited T4 and other slips
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Audit Protection
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Property Disposal
-
+                       and many more...
                     </li>
                   </ul>
                 </div>
                 <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="#">
+                  <a className="tj-transparent-btn" href="/pricing">
                     {" "}
-                    Get The Plan Now
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="tj-price-item">
-                <div className="price-top-header">
-                  <div className="price-content">
-                    <h6 className="title">Premium Plan</h6>
-                    <div className="price">
-                    99.99$ <span className="month"> (excl. Tax)</span>
-                    </div>
-                  </div>
-                  {/* <div className="price-icon">
-                    <i className="flaticon-management" />
-                  </div> */}
-                </div>
-                <div className="price-list">
-                  <ul className="list-gap">
-                    <li>
-                      <i className="flaticon-checkmark" /> 30 min guide session
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> One return per plan
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Ideal for family and Beginners
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Base & Plus Plan with review by a tax expert
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Chat Support for Tax & Technical Issues.
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Customized Tax Savings Tips for your scenario.
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Stocks, Capital Gains/Losses & Investments
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Pension Income
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Unlimited T4 and other slips
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Audit Protection
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Property Disposal
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Rental Income & foreign Income
-
-
-                    </li>
-                  </ul>
-                </div>
-                <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="#">
-                    {" "}
-                    Get The Plan Now
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="tj-price-item">
-                <div className="price-top-header">
-                  <div className="price-content">
-                    <h6 className="title">Advanced Plan</h6>
-                    <div className="price">
-                    129$ <span className="month"> (excl. Tax)</span>
-                    </div>
-                  </div>
-                  <div className="price-icon">
-                    <i className="flaticon-management" />
-                  </div>
-                </div>
-                <div className="price-list">
-                  <ul className="list-gap">
-                    <li>
-                      <i className="flaticon-checkmark" /> 30 min guide session
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> One return per plan
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Ideal for family and Beginners
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Base & Plus Plan with review by a tax expert
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Chat Support for Tax & Technical Issues.
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Customized Tax Savings Tips for your scenario.
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Stocks, Capital Gains/Losses & Investments
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Pension Income
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Unlimited T4 and other slips
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Audit Protection
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Property Disposal
-
-                    </li>
-                    <li>
-                      <i className="flaticon-checkmark" /> Rental Income & foreign Income
-
-
-                    </li>
-
-                    <li>
-                      <i className="flaticon-checkmark" /> Business & Self- Employment Income
-
-
-                    </li>
-                  </ul>
-                </div>
-                <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="#">
-                    {" "}
-                    Get The Plan Now
+                    Explore Premium Plans
                   </a>
                 </div>
               </div>

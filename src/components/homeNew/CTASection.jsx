@@ -10,6 +10,7 @@ import '../../assets/css/swiper.min.css';
 import '../../assets/css/magnific-popup.css';
 import '../../assets/css/main.css';
 import '../../assets/css/responsive.css';
+import { colors } from '@mui/material';
 
 export default function CTASection() {
   return (
@@ -20,12 +21,24 @@ export default function CTASection() {
       <div className="col-lg-6">
         <div className="tj-cta-content-one">
           <div className="tj-sec-heading">
-            <h2 className="title">Starthing with ChatFiler is easy, fast.</h2>
+            <h2 className="title">Chat with us and file your taxes now!</h2>
             <p className="desc">
-              It is a long established fact that a reader will be distracted by the readable
-              content of a page when looking at its layout. The point of using Lorem Ipsum is that
-              it has a more-or-less normal distribution of letters,
+            Chat filer is easy to use, fast & reliable tax software. Take your own device, select a plan and start filing your tax, We will assist you!!
             </p>
+            <div className="choose-list">
+              <ul  className="list-gap">
+                <li style={{color:'white'}}><i className="flaticon-checkmark" /> Netfile your return directly to CRA</li>
+                <br />
+                <li style={{color:'white'}}>
+                  <i className="flaticon-checkmark" /> Import tax slips from CRA
+                </li>
+                <br />
+                <li style={{color:'white'}}>
+                  <i className="flaticon-checkmark" /> 24/7 chat support
+                </li>
+                <br />
+              </ul>
+            </div>
             <div className="tj-cta-button">
               <a className="tj-white-btn" href="/login"> Get started</a>
             </div>
