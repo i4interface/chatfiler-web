@@ -38,6 +38,9 @@ export default function HeroSection() {
             Do it yourself with expert help and mentoring. Take your device and let’s start your filing
             </p>
           </div>
+          <div className="tj-choose-us-button">
+              <a className="tj-black-btn" href="/login"> FILE MY RETURNS</a>
+            </div>
         </div>
         <div className="hero-lg-image shake-y text-center">
           <img src="/images/banner/dashboard.jpg" alt="Image" />
