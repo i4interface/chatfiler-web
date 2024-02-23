@@ -11,8 +11,7 @@ function Pricing() {
               Do It Yourself!
             </h2>
             <p className="mt-6 text-xl/8 text-gray-600">
-              This is for you!! File your Tax for a coffee, Just{" "}
-              <strong>1.49</strong> Cad plus Tax. <br /> On this platform, you
+              This is for you!! File your Tax at ease.<br /> On this platform, you
               are going to file your tax by yourself and submit your file by
               your Netfile Code from CRA.
               <br />
