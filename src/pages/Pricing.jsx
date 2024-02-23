@@ -11,10 +11,7 @@ function Pricing() {
               Do It Yourself!
             </h2>
             <p className="mt-6 text-xl/8 text-gray-600">
-              This is for you!! File your Tax at ease.<br /> On this platform, you
-              are going to file your tax by yourself and submit your file by
-              your Netfile Code from CRA.
-              <br />
+              This is for you!! File your Tax at ease.<br />
               You will get easy access to all the slips from CRA if you already
               have an account with CRA. So, move forward and file your tax with
               ease.
