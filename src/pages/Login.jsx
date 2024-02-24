@@ -7,7 +7,7 @@ export default function Login() {
     const redirectTimeout = setTimeout(() => {
       // Replace 'your-redirect-link' with the actual link you want to redirect to
       window.location.replace('https://app.chatfiler.ca');
-    }, 5000);
+    }, 3000);
 
     // Cleanup the timeout to avoid memory leaks
     return () => clearTimeout(redirectTimeout);
@@ -15,6 +15,9 @@ export default function Login() {
 
   return (
     <div className='w-[100%] h-[100vh] flex'>
+        <div className='flex items-center w-full h-[20vh] flex-col py-8'>
+        <img src="/images/logo.png" alt="Logo" className="h-12" />
+        </div>
       <div className="text">
         CONNECTING
       </div>
