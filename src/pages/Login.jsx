@@ -14,8 +14,8 @@ export default function Login() {
   }, []);
 
   return (
-    <div className='w-[100%] h-[100vh] flex'>
-        <div className='flex items-center w-full h-[20vh] flex-col py-8'>
+    <div className='w-[100%] h-[100vh] flex py-8'>
+        <div className='flex items-center w-full h-[10vh] flex-col py-8'>
         <img src="/images/logo.png" alt="Logo" className="h-12" />
         </div>
       <div className="text">
