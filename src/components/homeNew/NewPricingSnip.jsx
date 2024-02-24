@@ -70,7 +70,7 @@ export default function NewPricingSnip() {
                   </ul>
                 </div>
                 <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="#">
+                  <a className="tj-transparent-btn" href="/login">
                     {" "}
                     Get Basic Plan
                   </a>
@@ -125,7 +125,7 @@ export default function NewPricingSnip() {
                   </ul>
                 </div>
                 <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="#">
+                  <a className="tj-transparent-btn" href="/login">
                     {" "}
                     Get Plus Plan
                   </a>

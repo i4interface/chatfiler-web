@@ -73,12 +73,8 @@ export default function HomeContact() {
   <div className="contact-bg-shape">
     <img src="/images/shape/sec-shape6.svg" alt="Shape" />
   </div>
-  <div className="sec-overly-1">
-    <img src="/images/shape/overly-1.svg" alt="Shape" />
-  </div>
-  <div className="sec-overly-2">
-    <img src="/images/shape/overly-2.svg" alt="Shape" />
-  </div>
+
+
   <div className="tj-circle-box3">
     <span className="circle-1" />
     <span className="circle-2" />

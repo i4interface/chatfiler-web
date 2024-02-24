@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="flex flex-col mt-8">
+    <footer className="flex flex-col mt-8 z-[99999]">
       <div className="flex justify-center items-center px-8 py-12 w-full bg-black rounded-[48px_48px_0px_0px] max-lg:px-5 max-lg:max-w-full">
         <div className="mb-6 w-full">
           <div className="flex gap-5 max-lg:flex-col max-lg:gap-0 ">
@@ -71,10 +71,10 @@ function Footer() {
                 </div>
                 <div className="flex flex-col flex-1 self-start">
                   <h2 className="text-lg">Other Links</h2>
-                  <a href="/terms-conditions" className="text-sm font-regular mt-4 hover:text-red-700">
+                  <a href="/terms-and-conditions" className="text-sm font-regular mt-4 hover:text-red-700 cursor-pointer">
                     Terms & Conditions
                   </a>
-                  <a href="/privacy-policy" className="text-sm font-regular mt-4 hover:text-red-700">
+                  <a href="/privacy-policy" className="text-sm font-regular mt-4 hover:text-red-700 cursor-pointer">
                     Privacy Policy
                   </a>
                 </div>

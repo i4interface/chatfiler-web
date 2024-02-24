@@ -10,7 +10,9 @@ import Contact from "./pages/Contact";
 import News from "./pages/News";
 import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
-
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import Login from "./pages/Login";
 function App() {
   return (
     <div className="App">
@@ -31,10 +33,13 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/faq" element={<Faq/>}/>
+          <Route path="/login" element={<Login/>}/>
           <Route path="/tax-payers" element={<TaxPayerDetail/>}/>
           <Route path="/news" element={<News/>}/>
           <Route path="/pricing" element={<Pricing/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/terms-and-conditions" element={<Terms />}/>
+          <Route path="/privacy-policy" element={<Privacy />}/>
         </Routes>
       </Router>
     </div>
