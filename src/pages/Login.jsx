@@ -6,7 +6,7 @@ export default function Login() {
     // Set a timeout to redirect after 5 seconds
     const redirectTimeout = setTimeout(() => {
       // Replace 'your-redirect-link' with the actual link you want to redirect to
-      window.location.replace('https://app.chatfiler.ca');
+      window.location.replace('https://app.chatfiler.ca/2023');
     }, 3000);
 
     // Cleanup the timeout to avoid memory leaks

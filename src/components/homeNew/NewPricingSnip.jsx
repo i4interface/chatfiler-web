@@ -70,7 +70,7 @@ export default function NewPricingSnip() {
                   </ul>
                 </div>
                 <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="/login">
+                  <a className="tj-transparent-btn" href="https://app.chatfiler.ca/2023">
                     {" "}
                     Get Basic Plan
                   </a>
@@ -125,7 +125,7 @@ export default function NewPricingSnip() {
                   </ul>
                 </div>
                 <div className="tj-price-button text-center">
-                  <a className="tj-transparent-btn" href="/login">
+                  <a className="tj-transparent-btn" href="https://app.chatfiler.ca/2023">
                     {" "}
                     Get Plus Plan
                   </a>

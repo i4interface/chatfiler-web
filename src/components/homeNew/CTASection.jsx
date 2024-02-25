@@ -38,7 +38,7 @@ export default function CTASection() {
               </ul>
             </div>
             <div className="tj-cta-button">
-              <a className="tj-white-btn" href="/login"> Get started</a>
+              <a className="tj-white-btn" href="https://app.chatfiler.ca/2023"> Get started</a>
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="tj-choose-us-button">
-              <a className="tj-black-btn" href="/login"> FILE MY RETURNS</a>
+              <a className="tj-black-btn" href="https://app.chatfiler.ca/2023"> FILE MY RETURNS</a>
             </div>
         </div>
         <div className="hero-lg-image shake-y text-center">

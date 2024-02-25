@@ -66,7 +66,7 @@ export default function AboutSection() {
               </ul>
             </div>
             <div className="tj-choose-us-button">
-              <a className="tj-black-btn" href='/login'> GET STARTED</a>
+              <a className="tj-black-btn" href='https://app.chatfiler.ca/2023'> GET STARTED</a>
             </div>
           </div>
         </div>

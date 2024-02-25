@@ -37,7 +37,7 @@ export default function CTANew() {
 
           </div>
           <div className="tj-choose-us-button">
-              <a className="tj-primary-black-btn" href="/login"> Get Started</a>
+              <a className="tj-primary-black-btn" href="https://app.chatfiler.ca/2023"> Get Started</a>
             </div>
         </div>
       </div>

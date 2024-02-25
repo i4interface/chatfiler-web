@@ -91,7 +91,7 @@ function Footer() {
                 <div className="text-sm font-regular mt-2">
                   info@chatfiler.ca
                 </div>
-                <a href="/login"
+                <a href="https://app.chatfiler.ca/2023"
                   className="px-4 py-2 mt-9 text-lg bg-red-700 rounded-full max-lg:px-5 "
                   
                 >
