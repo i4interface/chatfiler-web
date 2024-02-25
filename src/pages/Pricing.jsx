@@ -254,7 +254,7 @@ function Pricing() {
               <a
                 className="inline-flex justify-center rounded-lg border py-2 px-3 text-sm font-semibold text-slate-400 hover:text-white hover:bg-red-700 mt-6 transition-all duration-500"
                 aria-label="Get started with the Starter plan"
-                href="/contact"
+                href="https://app.chatfiler.ca/2023"
               >
                 EXPLORE BASIC
               </a>
@@ -265,7 +265,7 @@ function Pricing() {
                 <a
                   className="rounded-lg py-2 px-3 text-xs font-semibold bg-black text-white hover:text-black hover:bg-white mt-6 transition-all duration-500"
                   aria-label="Get started with the Starter plan"
-                  href="/contact"
+                  href="https://app.chatfiler.ca/2023"
                 >
                   Best choice
                 </a>
@@ -518,7 +518,7 @@ function Pricing() {
               <a
                 className="inline-flex justify-center rounded-lg border py-2 px-3 text-sm font-semibold bg-white hover:text-white hover:bg-red-700 mt-6 transition-all duration-500 text-gray-900"
                 aria-label="Get started with the Starter plan"
-                href="/contact"
+                href="https://app.chatfiler.ca/2023"
               >
                 EXPLORE PLUS
               </a>
@@ -622,7 +622,7 @@ function Pricing() {
                 </ul>
                 <div className="flex justify-center">
                   <a
-                    href="/contact"
+                    href="https://app.chatfiler.ca/2023"
                     className="py-3 px-6 font-medium border rounded-md border-red-700 text-red-700 hover:bg-red-700 hover:text-white transition-all duration-500"
                   >
                     EXPLORE PRO
@@ -717,7 +717,7 @@ function Pricing() {
                         </ul>
                         <div className="flex justify-center">
                           <a
-                            href="/contact"
+                            href="https://app.chatfiler.ca/2023"
                             className="py-3 px-6 font-medium border rounded-md border-red-700 bg-red-700 text-white hover:bg-red-700-800"
                           >
                             EXPLORE PREMIUM
@@ -806,7 +806,7 @@ function Pricing() {
                 </ul>
                 <div className="flex justify-center">
                   <a
-                    href="/contact"
+                    href="https://app.chatfiler.ca/2023"
                     className="py-3 px-6 font-medium text-lg border rounded-md border-red-700 text-red-700 hover:bg-red-700 hover:text-white transition-all duration-500"
                   >
                     ADVANCED PLAN
