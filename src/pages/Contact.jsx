@@ -30,10 +30,10 @@ function Contact() {
                 <div className="text-5xl leading-[68.16px] text-zinc-900 max-md:max-w-full max-md:text-4xl">
                   Get in touch
                 </div>
-                <div className="mt-10 text-xl leading-8 text-zinc-900 max-md:max-w-full">
+                {/* <div className="mt-10 text-xl leading-8 text-zinc-900 max-md:max-w-full">
                   Advising companies on long-term growth, and market
                   positioning.
-                </div>
+                </div> */}
                 <div className="flex gap-4 justify-between mt-5 max-md:flex-wrap max-md:max-w-full">
                   <div className="flex flex-col flex-1 justify-center pt-2 ">
                     

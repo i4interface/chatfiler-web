@@ -11,7 +11,7 @@ function About() {
     <Layout>
       <Hero/>
       <Mission/>
-      <WhyChoose />
+      {/* <WhyChoose /> */}
       <KeyPoints/>
       {/* <Testimonials/> */}
 

@@ -28,23 +28,8 @@ function Footer() {
                   </div>
                 </form>
                 <div className="flex gap-2 justify-between pr-1 mt-12 max-lg:mt-10 w-[20%]">
-                  <a href="#image-1" className="w-8 aspect-square text-white">
-                    <img
-                      loading="lazy"
-                      src="/icons/square-facebook.svg"
-                      alt="image 1"
-                      className="text-white"
-                    />
-                  </a>
-                  <a href="#image-2" className="w-8 aspect-square">
-                    <img
-                      loading="lazy"
-                      src="/icons/square-x-twitter.svg"
-                      alt="image 2"
-                      className="text-white"
-                    />
-                  </a>
-                  <a href="#image-3" className="w-8 aspect-square ">
+                  
+                  <a href="https://www.instagram.com/chatfiler/p/DGLktQbOc5I/" className="w-8 aspect-square ">
                     <img
                       loading="lazy"
                       src="/icons/square-instagram.svg"

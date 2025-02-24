@@ -79,7 +79,7 @@ function Header() {
                 isCurrentPage("/tax-payers") && "text-red-700"
               }`}
             >
-              Tax Payers
+              Our Services
             </a>
             {/* <a
               href="/news"
@@ -161,9 +161,11 @@ function Header() {
             href="/tax-payers"
             className={`block text-black font-poppins py-2 ${
               isCurrentPage("/tax-payers") && "text-red-700"
+              
             }`}
           >
-            Tax Payers
+            {/* Tax Payers */}
+            Our services
           </a>
           {/* <a
             href="/news"
